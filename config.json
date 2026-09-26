@@ -1,0 +1,11 @@
+{
+  "refresh_seconds": 900,
+  "rpc_url": "https://api.mainnet-beta.solana.com",
+  "thresholds": {
+    "tps_low": 1500,
+    "slot_ms_high": 600,
+    "delinquent_pct_high": 5,
+    "sol_move_abs_pct": 8,
+    "tvl_7d_abs_pct": 10
+  }
+}
