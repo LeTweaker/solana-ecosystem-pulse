@@ -1,0 +1,41 @@
+{
+  "rpc": {
+    "slot": 365123456,
+    "block_height": 342123456,
+    "epoch": {"epoch": 820, "slotIndex": 210000, "slotsInEpoch": 432000},
+    "performance": [
+      {"numTransactions": 7200000, "samplePeriodSecs": 60, "numSlots": 150},
+      {"numTransactions": 6900000, "samplePeriodSecs": 60, "numSlots": 149},
+      {"numTransactions": 7350000, "samplePeriodSecs": 60, "numSlots": 151}
+    ],
+    "votes": {
+      "current": [
+        {"nodePubkey": "ValA", "activatedStake": 8000000000000000, "commission": 5},
+        {"nodePubkey": "ValB", "activatedStake": 6500000000000000, "commission": 7},
+        {"nodePubkey": "ValC", "activatedStake": 5300000000000000, "commission": 5}
+      ],
+      "delinquent": [{"nodePubkey": "ValD", "activatedStake": 100000000000, "commission": 10}]
+    },
+    "supply": {"value": {"circulating": 520000000000000000, "total": 600000000000000000}},
+    "inflation": {"total": 0.041}
+  },
+  "defillama": {
+    "tvl_usd": 8900000000,
+    "tvl_30d": [{"date": 1, "tvl_usd": 7800000000},{"date": 2, "tvl_usd": 7900000000},{"date": 3, "tvl_usd": 8000000000},{"date": 4, "tvl_usd": 8050000000},{"date": 5, "tvl_usd": 8150000000},{"date": 6, "tvl_usd": 8300000000},{"date": 7, "tvl_usd": 8400000000},{"date": 8, "tvl_usd": 8450000000},{"date": 9, "tvl_usd": 8500000000},{"date": 10, "tvl_usd": 8600000000},{"date": 11, "tvl_usd": 8650000000},{"date": 12, "tvl_usd": 8700000000},{"date": 13, "tvl_usd": 8750000000},{"date": 14, "tvl_usd": 8800000000},{"date": 15, "tvl_usd": 8850000000},{"date": 16, "tvl_usd": 8900000000}],
+    "dex_volume_24h_usd": 3200000000,
+    "dex_volume_7d_usd": 21100000000,
+    "dex_change_1d_pct": 4.2,
+    "stablecoin_supply_usd": 13400000000
+  },
+  "market": {"sol_price_usd": 212.45, "sol_24h_change_pct": -2.8, "sol_market_cap_usd": 110000000000},
+  "development": {
+    "agave_releases": [{"tag": "v3.0.0", "published_at": "2026-09-20T12:00:00Z", "url": "https://github.com/anza-xyz/agave/releases"}],
+    "recent_simd_commits": [{"sha": "abc12345", "date": "2026-09-24T10:00:00Z", "message": "Update consensus proposal", "url": "https://github.com/solana-foundation/solana-improvement-documents"}]
+  },
+  "news": {
+    "official_news": [
+      {"title": "Stocks Go Onchain: What the SEC Innovation Exemption Means for Solana", "url": "https://solana.com/news", "published_at": "Wed, 23 Sep 2026 00:00:00 GMT", "category": "Finance"},
+      {"title": "How AI Is Reshaping Crypto Security", "url": "https://solana.com/news", "published_at": "Sat, 19 Sep 2026 00:00:00 GMT", "category": "Ecosystem"}
+    ]
+  }
+}
