@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "generated_at": "TEST FIXTURE",
+    "fixture": true,
+    "schema_version": 1,
+    "source_status": {"rpc": "ok", "defillama": "ok", "market": "ok", "development": "ok", "news": "ok"},
+    "errors": {}
+  },
+  "network": {
+    "slot": 365123456,
+    "block_height": 342123456,
+    "epoch": 820,
+    "epoch_progress_pct": 48.6111111111,
+    "avg_tps_12m": 119166.6667,
+    "median_tps_12m": 120000,
+    "avg_slot_ms_12m": 400.0119,
+    "active_validators": 3,
+    "delinquent_validators": 1,
+    "delinquent_pct": 25.0,
+    "top10_stake_pct": 100.0
+  },
+  "economics": {
+    "sol_price_usd": 212.45,
+    "sol_24h_change_pct": -2.8,
+    "sol_market_cap_usd": 110000000000,
+    "tvl_usd": 8900000000,
+    "dex_volume_24h_usd": 3200000000,
+    "dex_volume_7d_usd": 21100000000,
+    "stablecoin_supply_usd": 13400000000
+  },
+  "growth": {"daily_active_addresses": null},
+  "development": {"agave_releases": [{"tag": "v3.0.0"}], "recent_simd_commits": [{"sha": "abc12345"}]},
+  "anomalies": [{"level": "critical", "metric": "delinquent_pct", "value": 25.0}]
+}
