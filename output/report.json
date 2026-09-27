@@ -1,27 +1,28 @@
 {
   "meta": {
-    "generated_at": "2026-09-27T19:27:03Z",
+    "generated_at": "2026-09-27T20:28:34Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
       "rpc": "ok",
       "defillama": "error",
       "market": "ok",
-      "development": "ok",
+      "development": "error",
       "news": "ok"
     },
     "errors": {
-      "defillama": "HTTPError: HTTP Error 400: Bad Request"
+      "defillama": "HTTPError: HTTP Error 400: Bad Request",
+      "development": "HTTPError: HTTP Error 403: rate limit exceeded"
     }
   },
   "network": {
-    "slot": 451090544,
-    "block_height": 429130225,
+    "slot": 451104315,
+    "block_height": 429143996,
     "epoch": 1044,
-    "epoch_progress_pct": 19.107407407407408,
-    "avg_tps_12m": 4466.1611111111115,
-    "median_tps_12m": 4439.35,
-    "avg_slot_ms_12m": 268.47297967146795,
+    "epoch_progress_pct": 22.29513888888889,
+    "avg_tps_12m": 4721.402777777778,
+    "median_tps_12m": 4750.35,
+    "avg_slot_ms_12m": 267.9024979396748,
     "active_validators": 675,
     "delinquent_validators": 8,
     "delinquent_pct": 1.171303074670571,
@@ -79,97 +80,20 @@
         "commission_pct": 0
       }
     ],
-    "circulating_supply_sol": 587782773.4141968,
-    "total_supply_sol": 634841484.6831107,
+    "circulating_supply_sol": 587782728.7512268,
+    "total_supply_sol": 634841440.0201406,
     "inflation_rate_pct": 3.6278227701306474
   },
   "economics": {
-    "sol_price_usd": 123.2,
-    "sol_24h_change_pct": 1.6475644098427393,
-    "sol_market_cap_usd": 72395171825.49457
+    "sol_price_usd": 122.87,
+    "sol_24h_change_pct": 1.3852364503392083,
+    "sol_market_cap_usd": 72242825863.67569
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
     "daily_active_addresses": null
   },
   "development": {
-    "agave_releases": [
-      {
-        "tag": "v4.4.0-alpha.5",
-        "published_at": "2026-09-18T15:32:23Z",
-        "url": "https://github.com/anza-xyz/agave/releases/tag/v4.4.0-alpha.5"
-      },
-      {
-        "tag": "v4.3.0",
-        "published_at": "2026-09-18T12:15:17Z",
-        "url": "https://github.com/anza-xyz/agave/releases/tag/v4.3.0"
-      },
-      {
-        "tag": "v4.3.0-rc.1",
-        "published_at": "2026-09-11T14:39:49Z",
-        "url": "https://github.com/anza-xyz/agave/releases/tag/v4.3.0-rc.1"
-      },
-      {
-        "tag": "v4.4.0-alpha.4",
-        "published_at": "2026-09-10T19:19:58Z",
-        "url": "https://github.com/anza-xyz/agave/releases/tag/v4.4.0-alpha.4"
-      },
-      {
-        "tag": "v4.3.0-rc.0",
-        "published_at": "2026-09-04T15:46:13Z",
-        "url": "https://github.com/anza-xyz/agave/releases/tag/v4.3.0-rc.0"
-      }
-    ],
-    "recent_simd_commits": [
-      {
-        "sha": "4b643ca8",
-        "date": "2026-09-25T15:18:56Z",
-        "message": "Amend simd 0376 ed25519-zebra verification (#616)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/4b643ca8746742183a469681765e694b385bb315"
-      },
-      {
-        "sha": "f1afd941",
-        "date": "2026-09-25T00:40:21Z",
-        "message": "SIMD-0215: clarify LtHash security considerations (#669)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/f1afd941b9fa5061ea80a5401feb72172121ebb5"
-      },
-      {
-        "sha": "8b157e1d",
-        "date": "2026-09-23T15:44:12Z",
-        "message": "SIMD-0558: Describe pointer validation & update CU cost (#651)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/8b157e1def5fb3b3779f0935ec71cd7cae271207"
-      },
-      {
-        "sha": "b7ca332f",
-        "date": "2026-09-21T13:44:36Z",
-        "message": "Increase TxV1 Account Lock Limit to 96 (#596)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/b7ca332f0aabe11ecc6cf36143462d4487d59a39"
-      },
-      {
-        "sha": "2df3442e",
-        "date": "2026-09-16T17:33:59Z",
-        "message": "SIMD-0582: Early detection of instruction trace overflow (#582)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/2df3442ef8fca03a48999a9ce525f69224368ebb"
-      },
-      {
-        "sha": "31406c06",
-        "date": "2026-09-15T17:06:54Z",
-        "message": "SIMD-0377: fix JMP32 register opcodes, JSGE32 condition and callx opcode (#639)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/31406c06ad6abb28576bca29b58c2c8179b1569d"
-      },
-      {
-        "sha": "74fec386",
-        "date": "2026-09-15T07:18:20Z",
-        "message": "SIMD-0609: Prohibit Vote Account Self-Withdrawals (#609)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/74fec38613b6a54df5062766cbbb637b17669c41"
-      },
-      {
-        "sha": "d40327f1",
-        "date": "2026-09-15T07:18:15Z",
-        "message": "SIMD-0610: Prohibit Nonce Account Self-Withdrawals (#610)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/d40327f187afe4e57de73dabae8fcf1213d8544e"
-      }
-    ],
     "official_news": [
       {
         "title": "Solana Foundation Appoints Rachel Conlan as Chief Strategy Officer and Jamal Raees as General Manager of Payments",
