@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-28T14:34:41Z",
+    "generated_at": "2026-09-28T15:33:44Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -15,13 +15,13 @@
     }
   },
   "network": {
-    "slot": 451347247,
-    "block_height": 429386882,
+    "slot": 451360438,
+    "block_height": 429400073,
     "epoch": 1044,
-    "epoch_progress_pct": 78.52939814814815,
-    "avg_tps_12m": 5038.438888888889,
-    "median_tps_12m": 5041.35,
-    "avg_slot_ms_12m": 270.41721612109467,
+    "epoch_progress_pct": 81.58287037037037,
+    "avg_tps_12m": 5012.197222222222,
+    "median_tps_12m": 4918.333333333333,
+    "avg_slot_ms_12m": 268.21507583075805,
     "active_validators": 676,
     "delinquent_validators": 7,
     "delinquent_pct": 1.0248901903367496,
@@ -79,14 +79,14 @@
         "commission_pct": 0
       }
     ],
-    "circulating_supply_sol": 587781957.974617,
-    "total_supply_sol": 634840669.2704057,
+    "circulating_supply_sol": 587781911.0192446,
+    "total_supply_sol": 634840622.3150331,
     "inflation_rate_pct": 3.6278227701306474
   },
   "economics": {
-    "sol_price_usd": 118.61,
-    "sol_24h_change_pct": -2.8213529416446224,
-    "sol_market_cap_usd": 69718378522.9103
+    "sol_price_usd": 118.18,
+    "sol_24h_change_pct": -2.866979533894459,
+    "sol_market_cap_usd": 69456552747.55168
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -94,6 +94,11 @@
   },
   "development": {
     "agave_releases": [
+      {
+        "tag": "v4.4.0-beta.0",
+        "published_at": "2026-09-28T15:10:04Z",
+        "url": "https://github.com/anza-xyz/agave/releases/tag/v4.4.0-beta.0"
+      },
       {
         "tag": "v4.4.0-alpha.5",
         "published_at": "2026-09-18T15:32:23Z",
@@ -113,11 +118,6 @@
         "tag": "v4.4.0-alpha.4",
         "published_at": "2026-09-10T19:19:58Z",
         "url": "https://github.com/anza-xyz/agave/releases/tag/v4.4.0-alpha.4"
-      },
-      {
-        "tag": "v4.3.0-rc.0",
-        "published_at": "2026-09-04T15:46:13Z",
-        "url": "https://github.com/anza-xyz/agave/releases/tag/v4.3.0-rc.0"
       }
     ],
     "recent_simd_commits": [
@@ -172,6 +172,12 @@
     ],
     "official_news": [
       {
+        "title": "Slot Time Reduction Effects",
+        "url": "https://solana.com/news/slot-time-reduction-effects",
+        "published_at": "Mon, 28 Sep 2026 15:00:00 GMT",
+        "category": ""
+      },
+      {
         "title": "Solana Foundation Appoints Rachel Conlan as Chief Strategy Officer and Jamal Raees as General Manager of Payments",
         "url": "https://solana.com/news/solana-foundation-appoints-2026",
         "published_at": "Thu, 24 Sep 2026 13:20:00 GMT",
@@ -223,12 +229,6 @@
         "title": "Solana Changelog: September 3, 2026",
         "url": "https://solana.com/news/solana-changelog-september-3-2026",
         "published_at": "Thu, 10 Sep 2026 20:16:00 GMT",
-        "category": ""
-      },
-      {
-        "title": "Report: Stablecoins Are Reshaping Remittances",
-        "url": "https://solana.com/news/report-stablecoins-are-reshaping-remittances",
-        "published_at": "Tue, 08 Sep 2026 13:14:00 GMT",
         "category": ""
       }
     ]
