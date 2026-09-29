@@ -1,27 +1,28 @@
 {
   "meta": {
-    "generated_at": "2026-09-29T06:37:49Z",
+    "generated_at": "2026-09-29T07:32:35Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
       "rpc": "ok",
       "defillama": "error",
-      "market": "ok",
+      "market": "error",
       "development": "ok",
       "news": "ok"
     },
     "errors": {
-      "defillama": "HTTPError: HTTP Error 400: Bad Request"
+      "defillama": "HTTPError: HTTP Error 400: Bad Request",
+      "market": "HTTPError: HTTP Error 403: Forbidden"
     }
   },
   "network": {
-    "slot": 451562967,
-    "block_height": 429602537,
+    "slot": 451575304,
+    "block_height": 429614868,
     "epoch": 1045,
-    "epoch_progress_pct": 28.464583333333334,
-    "avg_tps_12m": 3811.4319444444445,
-    "median_tps_12m": 3802.991666666667,
-    "avg_slot_ms_12m": 265.41695518117996,
+    "epoch_progress_pct": 31.32037037037037,
+    "avg_tps_12m": 3748.801388888889,
+    "median_tps_12m": 3746.633333333333,
+    "avg_slot_ms_12m": 268.0518433014032,
     "active_validators": 675,
     "delinquent_validators": 7,
     "delinquent_pct": 1.0263929618768328,
@@ -79,15 +80,11 @@
         "commission_pct": 0
       }
     ],
-    "circulating_supply_sol": 587852638.6417501,
-    "total_supply_sol": 634918724.3059732,
+    "circulating_supply_sol": 587852606.2636348,
+    "total_supply_sol": 634918691.9391456,
     "inflation_rate_pct": 3.625805526712072
   },
-  "economics": {
-    "sol_price_usd": 119.08,
-    "sol_24h_change_pct": 0.2767575398730694,
-    "sol_market_cap_usd": 69960604030.73126
-  },
+  "economics": {},
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
     "daily_active_addresses": null
