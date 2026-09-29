@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-29T17:31:25Z",
+    "generated_at": "2026-09-29T18:36:26Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -16,16 +16,16 @@
     }
   },
   "network": {
-    "slot": 451709562,
-    "block_height": 429749062,
+    "slot": 451724110,
+    "block_height": 429763604,
     "epoch": 1045,
-    "epoch_progress_pct": 62.39861111111111,
-    "avg_tps_12m": 4845.070833333333,
-    "median_tps_12m": 4854.316666666667,
-    "avg_slot_ms_12m": 268.30052601604683,
-    "active_validators": 673,
+    "epoch_progress_pct": 65.76620370370371,
+    "avg_tps_12m": 4725.984722222222,
+    "median_tps_12m": 4754.533333333333,
+    "avg_slot_ms_12m": 268.12021308939853,
+    "active_validators": 674,
     "delinquent_validators": 9,
-    "delinquent_pct": 1.3196480938416422,
+    "delinquent_pct": 1.3177159590043923,
     "active_stake_sol": 441070275.6904746,
     "top10_stake_pct": 24.45952998314979,
     "top_validators": [
@@ -80,8 +80,8 @@
         "commission_pct": 0
       }
     ],
-    "circulating_supply_sol": 587851588.7216827,
-    "total_supply_sol": 634918290.3971934,
+    "circulating_supply_sol": 587851538.9253689,
+    "total_supply_sol": 634918240.6008797,
     "inflation_rate_pct": 3.625805526712072
   },
   "economics": {},
