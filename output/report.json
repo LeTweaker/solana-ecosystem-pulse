@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-29T10:33:21Z",
+    "generated_at": "2026-09-29T11:30:58Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -16,18 +16,18 @@
     }
   },
   "network": {
-    "slot": 451615980,
-    "block_height": 429655536,
+    "slot": 451628948,
+    "block_height": 429668504,
     "epoch": 1045,
-    "epoch_progress_pct": 40.736111111111114,
-    "avg_tps_12m": 3947.8930555555557,
-    "median_tps_12m": 3908.4750000000004,
-    "avg_slot_ms_12m": 266.7204133907098,
-    "active_validators": 675,
-    "delinquent_validators": 7,
-    "delinquent_pct": 1.0263929618768328,
-    "active_stake_sol": 441226281.3195617,
-    "top10_stake_pct": 24.450881757684197,
+    "epoch_progress_pct": 43.73796296296296,
+    "avg_tps_12m": 3763.226388888889,
+    "median_tps_12m": 3741.008333333333,
+    "avg_slot_ms_12m": 265.3979272802228,
+    "active_validators": 674,
+    "delinquent_validators": 8,
+    "delinquent_pct": 1.1730205278592376,
+    "active_stake_sol": 441168803.13399446,
+    "top10_stake_pct": 24.45406736897169,
     "top_validators": [
       {
         "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
@@ -80,8 +80,8 @@
         "commission_pct": 0
       }
     ],
-    "circulating_supply_sol": 587852496.3117009,
-    "total_supply_sol": 634918581.9872118,
+    "circulating_supply_sol": 587852462.1645778,
+    "total_supply_sol": 634918547.8400885,
     "inflation_rate_pct": 3.625805526712072
   },
   "economics": {},
