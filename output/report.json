@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-30T00:40:37Z",
+    "generated_at": "2026-09-30T01:31:00Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -16,13 +16,13 @@
     }
   },
   "network": {
-    "slot": 451805581,
-    "block_height": 429845037,
+    "slot": 451816917,
+    "block_height": 429856373,
     "epoch": 1045,
-    "epoch_progress_pct": 84.62523148148148,
-    "avg_tps_12m": 4305.270833333333,
-    "median_tps_12m": 4339.608333333334,
-    "avg_slot_ms_12m": 268.62490952959473,
+    "epoch_progress_pct": 87.24930555555555,
+    "avg_tps_12m": 4309.247222222222,
+    "median_tps_12m": 4286.883333333333,
+    "avg_slot_ms_12m": 266.19167235642885,
     "active_validators": 674,
     "delinquent_validators": 9,
     "delinquent_pct": 1.3177159590043923,
@@ -80,8 +80,8 @@
         "commission_pct": 0
       }
     ],
-    "circulating_supply_sol": 587934982.4425095,
-    "total_supply_sol": 634917968.0700631,
+    "circulating_supply_sol": 587934948.1093221,
+    "total_supply_sol": 634917933.7368755,
     "inflation_rate_pct": 3.625805526712072
   },
   "economics": {},
