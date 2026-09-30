@@ -1,33 +1,32 @@
 {
   "meta": {
-    "generated_at": "2026-09-30T01:31:00Z",
+    "generated_at": "2026-09-30T02:30:38Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
       "rpc": "ok",
       "defillama": "error",
-      "market": "error",
+      "market": "ok",
       "development": "ok",
       "news": "ok"
     },
     "errors": {
-      "defillama": "HTTPError: HTTP Error 400: Bad Request",
-      "market": "HTTPError: HTTP Error 403: Forbidden"
+      "defillama": "HTTPError: HTTP Error 400: Bad Request"
     }
   },
   "network": {
-    "slot": 451816917,
-    "block_height": 429856373,
+    "slot": 451830329,
+    "block_height": 429869785,
     "epoch": 1045,
-    "epoch_progress_pct": 87.24930555555555,
-    "avg_tps_12m": 4309.247222222222,
-    "median_tps_12m": 4286.883333333333,
-    "avg_slot_ms_12m": 266.19167235642885,
-    "active_validators": 674,
-    "delinquent_validators": 9,
-    "delinquent_pct": 1.3177159590043923,
-    "active_stake_sol": 441070275.6904746,
-    "top10_stake_pct": 24.45952998314979,
+    "epoch_progress_pct": 90.35393518518518,
+    "avg_tps_12m": 4076.6666666666665,
+    "median_tps_12m": 4079.575,
+    "avg_slot_ms_12m": 267.9331939919369,
+    "active_validators": 675,
+    "delinquent_validators": 8,
+    "delinquent_pct": 1.171303074670571,
+    "active_stake_sol": 441080978.83798087,
+    "top10_stake_pct": 24.458936455045194,
     "top_validators": [
       {
         "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
@@ -80,11 +79,15 @@
         "commission_pct": 0
       }
     ],
-    "circulating_supply_sol": 587934948.1093221,
-    "total_supply_sol": 634917933.7368755,
+    "circulating_supply_sol": 587934909.5806121,
+    "total_supply_sol": 634917895.2081655,
     "inflation_rate_pct": 3.625805526712072
   },
-  "economics": {},
+  "economics": {
+    "sol_price_usd": 119.38,
+    "sol_24h_change_pct": 2.408799196573634,
+    "sol_market_cap_usd": 70171893391.19801
+  },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
     "daily_active_addresses": null
