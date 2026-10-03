@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-03T10:34:09Z",
+    "generated_at": "2026-10-03T14:39:43Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -15,16 +15,16 @@
     }
   },
   "network": {
-    "slot": 452907770,
-    "block_height": 430946340,
+    "slot": 452962967,
+    "block_height": 431001537,
     "epoch": 1048,
-    "epoch_progress_pct": 39.761574074074076,
-    "avg_tps_12m": 4219.727777777777,
-    "median_tps_12m": 4189.6,
-    "avg_slot_ms_12m": 267.9125440269385,
-    "active_validators": 672,
+    "epoch_progress_pct": 52.538657407407406,
+    "avg_tps_12m": 4048.8416666666667,
+    "median_tps_12m": 4040.383333333333,
+    "avg_slot_ms_12m": 266.89951465944984,
+    "active_validators": 673,
     "delinquent_validators": 12,
-    "delinquent_pct": 1.7543859649122806,
+    "delinquent_pct": 1.7518248175182483,
     "active_stake_sol": 441984565.22780854,
     "top10_stake_pct": 24.53490159344758,
     "top_validators": [
@@ -79,14 +79,14 @@
         "commission_pct": 0
       }
     ],
-    "circulating_supply_sol": 588146080.5682576,
-    "total_supply_sol": 635150654.1170366,
+    "circulating_supply_sol": 588145922.1696517,
+    "total_supply_sol": 635150495.7519307,
     "inflation_rate_pct": 3.6197605240662694
   },
   "economics": {
-    "sol_price_usd": 119.48,
-    "sol_24h_change_pct": -1.9482963811228264,
-    "sol_market_cap_usd": 70254985321.40381
+    "sol_price_usd": 119.36,
+    "sol_24h_change_pct": -1.616149541203522,
+    "sol_market_cap_usd": 70202761673.53851
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -172,6 +172,12 @@
     ],
     "official_news": [
       {
+        "title": "Solana x AI: The Democratization Layer",
+        "url": "https://solana.com/news/solana-ai-the-democratization-layer",
+        "published_at": "Fri, 02 Oct 2026 19:30:00 GMT",
+        "category": ""
+      },
+      {
         "title": "Open USD Is Live on Solana",
         "url": "https://solana.com/news/open-usd-is-live-on-solana",
         "published_at": "Wed, 30 Sep 2026 19:17:00 GMT",
@@ -223,12 +229,6 @@
         "title": "Solana Summer School 2026: From first program to demo day",
         "url": "https://solana.com/news/solana-summer-school-2026",
         "published_at": "Mon, 14 Sep 2026 12:00:00 GMT",
-        "category": ""
-      },
-      {
-        "title": "Solana: Building, Proving and Earning Trust in Public",
-        "url": "https://solana.com/news/solana-building-trust-in-public",
-        "published_at": "Mon, 14 Sep 2026 11:00:00 GMT",
         "category": ""
       }
     ]
