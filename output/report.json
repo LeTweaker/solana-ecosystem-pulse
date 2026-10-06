@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-06T03:33:00Z",
+    "generated_at": "2026-10-06T04:33:47Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -15,13 +15,13 @@
     }
   },
   "network": {
-    "slot": 453781361,
-    "block_height": 431819204,
+    "slot": 453794990,
+    "block_height": 431832829,
     "epoch": 1050,
-    "epoch_progress_pct": 41.981712962962966,
-    "avg_tps_12m": 4463.8805555555555,
-    "median_tps_12m": 4405.658333333334,
-    "avg_slot_ms_12m": 267.2031021170401,
+    "epoch_progress_pct": 45.136574074074076,
+    "avg_tps_12m": 4034.1055555555554,
+    "median_tps_12m": 4056.0916666666667,
+    "avg_slot_ms_12m": 267.27690278838594,
     "active_validators": 672,
     "delinquent_validators": 13,
     "delinquent_pct": 1.897810218978102,
@@ -79,14 +79,14 @@
         "commission_pct": 0
       }
     ],
-    "circulating_supply_sol": 588385664.7638667,
-    "total_supply_sol": 635305183.9017744,
+    "circulating_supply_sol": 588385622.4413816,
+    "total_supply_sol": 635305144.1472894,
     "inflation_rate_pct": 3.615736122411238
   },
   "economics": {
-    "sol_price_usd": 119.92,
-    "sol_24h_change_pct": -0.9011671810667998,
-    "sol_market_cap_usd": 70574688822.84315
+    "sol_price_usd": 120.21,
+    "sol_24h_change_pct": -0.15492357164563658,
+    "sol_market_cap_usd": 70716748405.75375
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -121,6 +121,12 @@
       }
     ],
     "recent_simd_commits": [
+      {
+        "sha": "f1f6c8b0",
+        "date": "2026-10-06T04:09:02Z",
+        "message": "amend SIMD-0464: clarify aliasing rules (#618)",
+        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/f1f6c8b05dc205552d3c290a854a438392701107"
+      },
       {
         "sha": "4b643ca8",
         "date": "2026-09-25T15:18:56Z",
@@ -162,12 +168,6 @@
         "date": "2026-09-15T07:18:20Z",
         "message": "SIMD-0609: Prohibit Vote Account Self-Withdrawals (#609)",
         "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/74fec38613b6a54df5062766cbbb637b17669c41"
-      },
-      {
-        "sha": "d40327f1",
-        "date": "2026-09-15T07:18:15Z",
-        "message": "SIMD-0610: Prohibit Nonce Account Self-Withdrawals (#610)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/d40327f187afe4e57de73dabae8fcf1213d8544e"
       }
     ],
     "official_news": [
