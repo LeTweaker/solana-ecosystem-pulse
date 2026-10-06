@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-06T02:32:21Z",
+    "generated_at": "2026-10-06T03:33:00Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -15,13 +15,13 @@
     }
   },
   "network": {
-    "slot": 453767759,
-    "block_height": 431805614,
+    "slot": 453781361,
+    "block_height": 431819204,
     "epoch": 1050,
-    "epoch_progress_pct": 38.83310185185185,
-    "avg_tps_12m": 4343.791666666667,
-    "median_tps_12m": 4336.366666666667,
-    "avg_slot_ms_12m": 267.90452213554687,
+    "epoch_progress_pct": 41.981712962962966,
+    "avg_tps_12m": 4463.8805555555555,
+    "median_tps_12m": 4405.658333333334,
+    "avg_slot_ms_12m": 267.2031021170401,
     "active_validators": 672,
     "delinquent_validators": 13,
     "delinquent_pct": 1.897810218978102,
@@ -79,14 +79,14 @@
         "commission_pct": 0
       }
     ],
-    "circulating_supply_sol": 588385708.6430792,
-    "total_supply_sol": 635305227.207987,
+    "circulating_supply_sol": 588385664.7638667,
+    "total_supply_sol": 635305183.9017744,
     "inflation_rate_pct": 3.615736122411238
   },
   "economics": {
-    "sol_price_usd": 120.55,
-    "sol_24h_change_pct": -0.554674539677226,
-    "sol_market_cap_usd": 70930521617.19858
+    "sol_price_usd": 119.92,
+    "sol_24h_change_pct": -0.9011671810667998,
+    "sol_market_cap_usd": 70574688822.84315
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -172,6 +172,12 @@
     ],
     "official_news": [
       {
+        "title": "Solana Foundation Launches Solana DvP, an Atomic Settlement Program Built for Financial Institutions",
+        "url": "https://solana.com/news/solana-foundation-launches-solana-dv-p-an-atomic-settlement-program-built-for-financial-institutions",
+        "published_at": "Tue, 06 Oct 2026 02:00:00 GMT",
+        "category": ""
+      },
+      {
         "title": "Solana x AI: The Democratization Layer",
         "url": "https://solana.com/news/solana-ai-the-democratization-layer",
         "published_at": "Fri, 02 Oct 2026 19:30:00 GMT",
@@ -223,12 +229,6 @@
         "title": "Project Harmonia Brings Institutional Tokenized Funds to Solana",
         "url": "https://solana.com/news/project-harmonia-brings-institutional-tokenized-funds-to-solana",
         "published_at": "Wed, 16 Sep 2026 00:56:00 GMT",
-        "category": ""
-      },
-      {
-        "title": "Solana Summer School 2026: From first program to demo day",
-        "url": "https://solana.com/news/solana-summer-school-2026",
-        "published_at": "Mon, 14 Sep 2026 12:00:00 GMT",
         "category": ""
       }
     ]
