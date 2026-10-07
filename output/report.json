@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-07T12:42:11Z",
+    "generated_at": "2026-10-07T13:35:52Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -15,18 +15,18 @@
     }
   },
   "network": {
-    "slot": 454226059,
-    "block_height": 432263643,
+    "slot": 454237997,
+    "block_height": 432275577,
     "epoch": 1051,
-    "epoch_progress_pct": 44.92106481481481,
-    "avg_tps_12m": 4261.388888888889,
-    "median_tps_12m": 4208.041666666666,
-    "avg_slot_ms_12m": 266.8202848489224,
-    "active_validators": 671,
-    "delinquent_validators": 10,
-    "delinquent_pct": 1.4684287812041117,
-    "active_stake_sol": 439306159.0225825,
-    "top10_stake_pct": 24.6222690227393,
+    "epoch_progress_pct": 47.68449074074074,
+    "avg_tps_12m": 4872.554166666667,
+    "median_tps_12m": 4754.916666666666,
+    "avg_slot_ms_12m": 268.40474072173254,
+    "active_validators": 670,
+    "delinquent_validators": 11,
+    "delinquent_pct": 1.6152716593245227,
+    "active_stake_sol": 439136667.7735005,
+    "top10_stake_pct": 24.631772349239128,
     "top_validators": [
       {
         "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
@@ -79,14 +79,14 @@
         "commission_pct": 0
       }
     ],
-    "circulating_supply_sol": 589094471.3902974,
-    "total_supply_sol": 635382370.7813668,
+    "circulating_supply_sol": 589094432.8825989,
+    "total_supply_sol": 635382332.2736682,
     "inflation_rate_pct": 3.613725599748363
   },
   "economics": {
-    "sol_price_usd": 116.92,
-    "sol_24h_change_pct": -2.876967087313437,
-    "sol_market_cap_usd": 68896284458.42424
+    "sol_price_usd": 116.33,
+    "sol_24h_change_pct": -3.5657037481932123,
+    "sol_market_cap_usd": 68527877548.80866
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -178,6 +178,12 @@
         "category": ""
       },
       {
+        "title": "Introducing Solana Microscope: Program Monitoring and Alerts",
+        "url": "https://solana.com/news/solana-microscope",
+        "published_at": "Mon, 05 Oct 2026 00:00:00 GMT",
+        "category": ""
+      },
+      {
         "title": "Solana x AI: The Democratization Layer",
         "url": "https://solana.com/news/solana-ai-the-democratization-layer",
         "published_at": "Fri, 02 Oct 2026 19:30:00 GMT",
@@ -223,12 +229,6 @@
         "title": "Solana Changelog: September 18, 2026",
         "url": "https://solana.com/news/solana-changelog-september-18-2026",
         "published_at": "Sat, 19 Sep 2026 11:28:00 GMT",
-        "category": ""
-      },
-      {
-        "title": "How AI Is Reshaping Crypto Security, with Michael Coates",
-        "url": "https://solana.com/news/bits-to-bricks-crypto-security-michael-coates",
-        "published_at": "Sat, 19 Sep 2026 10:00:00 GMT",
         "category": ""
       }
     ]
