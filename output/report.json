@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-07T18:38:35Z",
+    "generated_at": "2026-10-07T19:32:46Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -15,13 +15,13 @@
     }
   },
   "network": {
-    "slot": 454305453,
-    "block_height": 432343021,
+    "slot": 454317477,
+    "block_height": 432355037,
     "epoch": 1051,
-    "epoch_progress_pct": 63.299305555555556,
-    "avg_tps_12m": 5490.23611111111,
-    "median_tps_12m": 5553.816666666667,
-    "avg_slot_ms_12m": 268.9242499317739,
+    "epoch_progress_pct": 66.0826388888889,
+    "avg_tps_12m": 5002.419444444445,
+    "median_tps_12m": 5031.008333333333,
+    "avg_slot_ms_12m": 268.4953566156749,
     "active_validators": 671,
     "delinquent_validators": 10,
     "delinquent_pct": 1.4684287812041117,
@@ -79,14 +79,14 @@
         "commission_pct": 0
       }
     ],
-    "circulating_supply_sol": 589094198.7091105,
-    "total_supply_sol": 635382098.383257,
+    "circulating_supply_sol": 589094156.6572206,
+    "total_supply_sol": 635382056.331367,
     "inflation_rate_pct": 3.613725599748363
   },
   "economics": {
-    "sol_price_usd": 116.33,
-    "sol_24h_change_pct": -3.717716307395521,
-    "sol_market_cap_usd": 68544008984.70816
+    "sol_price_usd": 116.08,
+    "sol_24h_change_pct": -3.719697455894402,
+    "sol_market_cap_usd": 68354006629.18417
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -172,6 +172,12 @@
     ],
     "official_news": [
       {
+        "title": "Solana Ecosystem Roundup: September 2026",
+        "url": "https://solana.com/news/solana-ecosystem-roundup-september-2026",
+        "published_at": "Tue, 06 Oct 2026 19:38:00 GMT",
+        "category": ""
+      },
+      {
         "title": "Solana Foundation Launches Solana DvP, an Atomic Settlement Program Built for Financial Institutions",
         "url": "https://solana.com/news/solana-foundation-launches-solana-dv-p-an-atomic-settlement-program-built-for-financial-institutions",
         "published_at": "Tue, 06 Oct 2026 02:00:00 GMT",
@@ -223,12 +229,6 @@
         "title": "Stocks Go Onchain: What the SEC's Innovation Exemption Means for Solana",
         "url": "https://solana.com/news/stocks-sec-innovation-exemption",
         "published_at": "Wed, 23 Sep 2026 14:06:00 GMT",
-        "category": ""
-      },
-      {
-        "title": "Solana Changelog: September 18, 2026",
-        "url": "https://solana.com/news/solana-changelog-september-18-2026",
-        "published_at": "Sat, 19 Sep 2026 11:28:00 GMT",
         "category": ""
       }
     ]
