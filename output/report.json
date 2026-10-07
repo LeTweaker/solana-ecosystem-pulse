@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-07T02:33:31Z",
+    "generated_at": "2026-10-07T03:34:14Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -15,13 +15,13 @@
     }
   },
   "network": {
-    "slot": 454089702,
-    "block_height": 432127303,
+    "slot": 454103294,
+    "block_height": 432140891,
     "epoch": 1051,
-    "epoch_progress_pct": 13.356944444444444,
-    "avg_tps_12m": 4641.861111111111,
-    "median_tps_12m": 4559.708333333334,
-    "avg_slot_ms_12m": 270.6595434092912,
+    "epoch_progress_pct": 16.50324074074074,
+    "avg_tps_12m": 4323.2555555555555,
+    "median_tps_12m": 4331.175,
+    "avg_slot_ms_12m": 266.974904210782,
     "active_validators": 673,
     "delinquent_validators": 8,
     "delinquent_pct": 1.1747430249632893,
@@ -79,14 +79,14 @@
         "commission_pct": 0
       }
     ],
-    "circulating_supply_sol": 589094867.3050389,
-    "total_supply_sol": 635382766.042211,
+    "circulating_supply_sol": 589094825.9271064,
+    "total_supply_sol": 635382724.6642785,
     "inflation_rate_pct": 3.613725599748363
   },
   "economics": {
-    "sol_price_usd": 117.8,
-    "sol_24h_change_pct": -2.2912305956578107,
-    "sol_market_cap_usd": 69419781247.24086
+    "sol_price_usd": 118.21,
+    "sol_24h_change_pct": -1.3270455662280791,
+    "sol_market_cap_usd": 69639258762.2681
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -196,6 +196,12 @@
         "category": ""
       },
       {
+        "title": "Solana Changelog: September 24, 2026",
+        "url": "https://solana.com/news/solana-changelog-september-24-2026",
+        "published_at": "Thu, 24 Sep 2026 19:24:00 GMT",
+        "category": ""
+      },
+      {
         "title": "Solana Foundation Appoints Rachel Conlan as Chief Strategy Officer and Jamal Raees as General Manager of Payments",
         "url": "https://solana.com/news/solana-foundation-appoints-2026",
         "published_at": "Thu, 24 Sep 2026 13:20:00 GMT",
@@ -223,12 +229,6 @@
         "title": "Breakpoint 2026: A guide to getting oriented (Part 1)",
         "url": "https://solana.com/news/breakpoint-guide-part1",
         "published_at": "Fri, 18 Sep 2026 10:00:00 GMT",
-        "category": ""
-      },
-      {
-        "title": "Project Harmonia Brings Institutional Tokenized Funds to Solana",
-        "url": "https://solana.com/news/project-harmonia-brings-institutional-tokenized-funds-to-solana",
-        "published_at": "Wed, 16 Sep 2026 00:56:00 GMT",
         "category": ""
       }
     ]
