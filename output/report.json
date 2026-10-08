@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-08T17:33:21Z",
+    "generated_at": "2026-10-08T18:38:37Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -15,18 +15,18 @@
     }
   },
   "network": {
-    "slot": 454612651,
-    "block_height": 432650066,
+    "slot": 454627092,
+    "block_height": 432664493,
     "epoch": 1052,
-    "epoch_progress_pct": 34.40995370370371,
-    "avg_tps_12m": 5196.865277777778,
-    "median_tps_12m": 5138.708333333333,
-    "avg_slot_ms_12m": 268.6183165925099,
-    "active_validators": 670,
-    "delinquent_validators": 9,
-    "delinquent_pct": 1.3254786450662739,
-    "active_stake_sol": 438823590.3449326,
-    "top10_stake_pct": 24.593725021737363,
+    "epoch_progress_pct": 37.75277777777778,
+    "avg_tps_12m": 5710.1375,
+    "median_tps_12m": 5809.45,
+    "avg_slot_ms_12m": 274.9224324807171,
+    "active_validators": 671,
+    "delinquent_validators": 8,
+    "delinquent_pct": 1.1782032400589102,
+    "active_stake_sol": 438973556.9366637,
+    "top10_stake_pct": 24.585323064350177,
     "top_validators": [
       {
         "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
@@ -79,14 +79,14 @@
         "commission_pct": 0
       }
     ],
-    "circulating_supply_sol": 589152176.9035999,
-    "total_supply_sol": 635459668.3696929,
+    "circulating_supply_sol": 589152124.7151521,
+    "total_supply_sol": 635459616.9186155,
     "inflation_rate_pct": 3.6117161950324954
   },
   "economics": {
-    "sol_price_usd": 106.53,
-    "sol_24h_change_pct": -8.470820758576032,
-    "sol_market_cap_usd": 62759407916.5337
+    "sol_price_usd": 107.68,
+    "sol_24h_change_pct": -7.4654103900137105,
+    "sol_market_cap_usd": 63550652899.3741
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -233,12 +233,5 @@
       }
     ]
   },
-  "anomalies": [
-    {
-      "level": "info",
-      "metric": "sol_24h_change_pct",
-      "message": "SOL price moved sharply over 24h",
-      "value": -8.470820758576032
-    }
-  ]
+  "anomalies": []
 }\n
