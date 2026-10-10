@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-10T20:31:31Z",
+    "generated_at": "2026-10-10T21:31:04Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -15,18 +15,18 @@
     }
   },
   "network": {
-    "slot": 455387859,
-    "block_height": 433425029,
+    "slot": 455404252,
+    "block_height": 433441422,
     "epoch": 1054,
-    "epoch_progress_pct": 13.85625,
-    "avg_tps_12m": 5057.0986111111115,
-    "median_tps_12m": 5144.191666666667,
-    "avg_slot_ms_12m": 219.34939723789844,
-    "active_validators": 669,
-    "delinquent_validators": 11,
-    "delinquent_pct": 1.6176470588235294,
-    "active_stake_sol": 438083157.0775114,
-    "top10_stake_pct": 24.504254202594073,
+    "epoch_progress_pct": 17.650925925925925,
+    "avg_tps_12m": 4757.252777777778,
+    "median_tps_12m": 4748.066666666667,
+    "avg_slot_ms_12m": 217.99898323717312,
+    "active_validators": 672,
+    "delinquent_validators": 8,
+    "delinquent_pct": 1.1764705882352942,
+    "active_stake_sol": 438385729.3557886,
+    "top10_stake_pct": 24.48734145310185,
     "top_validators": [
       {
         "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
@@ -79,14 +79,14 @@
         "commission_pct": 0
       }
     ],
-    "circulating_supply_sol": 588848402.2531438,
-    "total_supply_sol": 635598712.1386789,
+    "circulating_supply_sol": 588848357.9857838,
+    "total_supply_sol": 635598667.8713189,
     "inflation_rate_pct": 3.6081020817863694
   },
   "economics": {
-    "sol_price_usd": 110.26,
-    "sol_24h_change_pct": 1.3506349207465846,
-    "sol_market_cap_usd": 64938553751.48376
+    "sol_price_usd": 110.19,
+    "sol_24h_change_pct": 1.0544979027363641,
+    "sol_market_cap_usd": 64888488954.684746
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
