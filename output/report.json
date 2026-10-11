@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-11T05:32:28Z",
+    "generated_at": "2026-10-11T06:39:28Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -15,13 +15,13 @@
     }
   },
   "network": {
-    "slot": 455536727,
-    "block_height": 433573888,
+    "slot": 455555140,
+    "block_height": 433592301,
     "epoch": 1054,
-    "epoch_progress_pct": 48.316435185185185,
-    "avg_tps_12m": 4384.087500000001,
-    "median_tps_12m": 4348.883333333333,
-    "avg_slot_ms_12m": 218.16197690042006,
+    "epoch_progress_pct": 52.5787037037037,
+    "avg_tps_12m": 4367.131944444444,
+    "median_tps_12m": 4347.299999999999,
+    "avg_slot_ms_12m": 218.5704458312512,
     "active_validators": 675,
     "delinquent_validators": 5,
     "delinquent_pct": 0.7352941176470589,
@@ -79,14 +79,14 @@
         "commission_pct": 0
       }
     ],
-    "circulating_supply_sol": 589051322.1261384,
-    "total_supply_sol": 635598314.7610409,
+    "circulating_supply_sol": 589051274.5535485,
+    "total_supply_sol": 635598267.1884508,
     "inflation_rate_pct": 3.6081020817863694
   },
   "economics": {
-    "sol_price_usd": 109.55,
-    "sol_24h_change_pct": -0.3663480876996898,
-    "sol_market_cap_usd": 64539200955.354095
+    "sol_price_usd": 109.46,
+    "sol_24h_change_pct": -0.29663632864208345,
+    "sol_market_cap_usd": 64475018260.49162
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
