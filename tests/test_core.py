@@ -18,6 +18,16 @@ class TestCore(unittest.TestCase):
                 p=Path(td)/f;self.assertTrue(p.exists());self.assertGreater(p.stat().st_size,200)
             self.assertIn('TEST FIXTURE',(Path(td)/'report.md').read_text())
             self.assertIn('Solana Ecosystem Pulse',(Path(td)/'dashboard.html').read_text())
+    def test_report_json_is_valid(self):
+        # Regression: report.json once ended with a literal backslash-n, making it unparseable.
+        cfg=json.loads((ROOT/'config.json').read_text());d=s.merge_sources(json.loads((ROOT/'tests/fixture.json').read_text()),{},cfg,True)
+        with tempfile.TemporaryDirectory() as td:
+            s.write_outputs(d,td)
+            p=Path(td)/'report.json'
+            with p.open() as fh:
+                loaded=json.load(fh)
+            self.assertEqual(loaded,d)
+            self.assertTrue(p.read_text().endswith('}\n'))
     def test_anomaly_threshold(self):
         cfg={'thresholds':{'delinquent_pct_high':1}}
         d={'network':{'delinquent_pct':7,'avg_tps_12m':2000,'avg_slot_ms_12m':400},'economics':{}}
