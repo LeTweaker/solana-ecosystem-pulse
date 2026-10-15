@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-15T18:20:30Z",
+    "generated_at": "2026-10-15T22:23:42Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -15,18 +15,18 @@
     }
   },
   "network": {
-    "slot": 457335259,
-    "block_height": 435371122,
+    "slot": 457402730,
+    "block_height": 435438577,
     "epoch": 1058,
-    "epoch_progress_pct": 64.64328703703704,
-    "avg_tps_12m": 5067.586111111111,
-    "median_tps_12m": 5027.641666666666,
-    "avg_slot_ms_12m": 217.59497929408232,
-    "active_validators": 672,
-    "delinquent_validators": 8,
-    "delinquent_pct": 1.1764705882352942,
-    "active_stake_sol": 437885810.54165864,
-    "top10_stake_pct": 24.483375710872327,
+    "epoch_progress_pct": 80.26157407407408,
+    "avg_tps_12m": 5046.8486111111115,
+    "median_tps_12m": 4929.366666666667,
+    "avg_slot_ms_12m": 215.67326428464665,
+    "active_validators": 671,
+    "delinquent_validators": 10,
+    "delinquent_pct": 1.4684287812041117,
+    "active_stake_sol": 437784437.13161576,
+    "top10_stake_pct": 24.489045083912252,
     "top_validators": [
       {
         "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
@@ -79,14 +79,14 @@
         "commission_pct": 0
       }
     ],
-    "circulating_supply_sol": 589268327.834725,
-    "total_supply_sol": 635844171.2504294,
+    "circulating_supply_sol": 589268126.4506674,
+    "total_supply_sol": 635843969.8663719,
     "inflation_rate_pct": 3.601685918913264
   },
   "economics": {
-    "sol_price_usd": 105.32,
-    "sol_24h_change_pct": 1.2916663025019435,
-    "sol_market_cap_usd": 62069141133.62545
+    "sol_price_usd": 105.89,
+    "sol_24h_change_pct": 1.4885920613889279,
+    "sol_market_cap_usd": 62398627226.13192
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -94,6 +94,11 @@
   },
   "development": {
     "agave_releases": [
+      {
+        "tag": "v4.3.2",
+        "published_at": "2026-10-15T22:20:41Z",
+        "url": "https://github.com/anza-xyz/agave/releases/tag/v4.3.2"
+      },
       {
         "tag": "v4.4.0-beta.1",
         "published_at": "2026-10-13T06:35:48Z",
@@ -113,11 +118,6 @@
         "tag": "v4.4.0-beta.0",
         "published_at": "2026-09-28T15:10:04Z",
         "url": "https://github.com/anza-xyz/agave/releases/tag/v4.4.0-beta.0"
-      },
-      {
-        "tag": "v4.4.0-alpha.5",
-        "published_at": "2026-09-18T15:32:23Z",
-        "url": "https://github.com/anza-xyz/agave/releases/tag/v4.4.0-alpha.5"
       }
     ],
     "recent_simd_commits": [
