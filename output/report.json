@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-20T01:51:56Z",
+    "generated_at": "2026-10-20T07:39:03Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -15,18 +15,18 @@
     }
   },
   "network": {
-    "slot": 459054670,
-    "block_height": 437089786,
+    "slot": 459150231,
+    "block_height": 437185330,
     "epoch": 1062,
-    "epoch_progress_pct": 62.655092592592595,
-    "avg_tps_12m": 4887.325,
-    "median_tps_12m": 4798.8,
-    "avg_slot_ms_12m": 218.62281083728354,
-    "active_validators": 668,
-    "delinquent_validators": 11,
-    "delinquent_pct": 1.6200294550810015,
-    "active_stake_sol": 437869249.1535161,
-    "top10_stake_pct": 24.27390217015261,
+    "epoch_progress_pct": 84.77569444444444,
+    "avg_tps_12m": 4343.575,
+    "median_tps_12m": 4319.425,
+    "avg_slot_ms_12m": 218.2674449242435,
+    "active_validators": 669,
+    "delinquent_validators": 10,
+    "delinquent_pct": 1.4727540500736378,
+    "active_stake_sol": 437879112.2215973,
+    "top10_stake_pct": 24.273355409316075,
     "top_validators": [
       {
         "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
@@ -79,14 +79,14 @@
         "commission_pct": 0
       }
     ],
-    "circulating_supply_sol": 589493437.4803938,
-    "total_supply_sol": 636089986.1188246,
+    "circulating_supply_sol": 589493186.203341,
+    "total_supply_sol": 636089734.8417717,
     "inflation_rate_pct": 3.5952811656802095
   },
   "economics": {
-    "sol_price_usd": 104.63,
-    "sol_24h_change_pct": -0.13212027792586592,
-    "sol_market_cap_usd": 61691069496.342476
+    "sol_price_usd": 104.26,
+    "sol_24h_change_pct": -1.5124226252318174,
+    "sol_market_cap_usd": 61461106131.282074
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -122,6 +122,18 @@
     ],
     "recent_simd_commits": [
       {
+        "sha": "749dc863",
+        "date": "2026-10-20T04:46:02Z",
+        "message": "SIMD-0686: Single Program Runtime Environment (#688)",
+        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/749dc8635821383c5c259d616e337687707f3ef9"
+      },
+      {
+        "sha": "f24b888c",
+        "date": "2026-10-20T04:45:01Z",
+        "message": "SIMD-0684: Loader V3: Allow Prefunded ProgramData (#684)",
+        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/f24b888c352c115f08438ebdb57f5bba46136745"
+      },
+      {
         "sha": "f1f6c8b0",
         "date": "2026-10-06T04:09:02Z",
         "message": "amend SIMD-0464: clarify aliasing rules (#618)",
@@ -156,18 +168,6 @@
         "date": "2026-09-16T17:33:59Z",
         "message": "SIMD-0582: Early detection of instruction trace overflow (#582)",
         "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/2df3442ef8fca03a48999a9ce525f69224368ebb"
-      },
-      {
-        "sha": "31406c06",
-        "date": "2026-09-15T17:06:54Z",
-        "message": "SIMD-0377: fix JMP32 register opcodes, JSGE32 condition and callx opcode (#639)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/31406c06ad6abb28576bca29b58c2c8179b1569d"
-      },
-      {
-        "sha": "74fec386",
-        "date": "2026-09-15T07:18:20Z",
-        "message": "SIMD-0609: Prohibit Vote Account Self-Withdrawals (#609)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/74fec38613b6a54df5062766cbbb637b17669c41"
       }
     ],
     "official_news": [
