@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-20T13:35:33Z",
+    "generated_at": "2026-10-20T18:29:27Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -15,18 +15,18 @@
     }
   },
   "network": {
-    "slot": 459248603,
-    "block_height": 437283662,
+    "slot": 459329582,
+    "block_height": 437364599,
     "epoch": 1063,
-    "epoch_progress_pct": 7.546990740740741,
-    "avg_tps_12m": 4996.326388888889,
-    "median_tps_12m": 4973.1,
-    "avg_slot_ms_12m": 218.4635349338091,
-    "active_validators": 669,
-    "delinquent_validators": 10,
-    "delinquent_pct": 1.4727540500736378,
-    "active_stake_sol": 438575848.0535209,
-    "top10_stake_pct": 24.34891812445323,
+    "epoch_progress_pct": 26.29212962962963,
+    "avg_tps_12m": 5527.502777777779,
+    "median_tps_12m": 5386.316666666667,
+    "avg_slot_ms_12m": 216.18294659366393,
+    "active_validators": 667,
+    "delinquent_validators": 12,
+    "delinquent_pct": 1.7673048600883652,
+    "active_stake_sol": 436546073.09793264,
+    "top10_stake_pct": 24.462131430563073,
     "top_validators": [
       {
         "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
@@ -79,14 +79,14 @@
         "commission_pct": 0
       }
     ],
-    "circulating_supply_sol": 589549783.0249276,
-    "total_supply_sol": 636152059.9962559,
+    "circulating_supply_sol": 589549497.8224922,
+    "total_supply_sol": 636151798.8688207,
     "inflation_rate_pct": 3.593681757749749
   },
   "economics": {
-    "sol_price_usd": 104.0,
-    "sol_24h_change_pct": -0.7725066173832909,
-    "sol_market_cap_usd": 61315768910.053215
+    "sol_price_usd": 106.08,
+    "sol_24h_change_pct": 2.3468465734866943,
+    "sol_market_cap_usd": 62525190018.197685
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -121,6 +121,12 @@
       }
     ],
     "recent_simd_commits": [
+      {
+        "sha": "33c75cff",
+        "date": "2026-10-20T17:30:01Z",
+        "message": "simd-0504: remove identical signature requirement (#593)",
+        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/33c75cffdeb38468989313c6381c179a541808f1"
+      },
       {
         "sha": "749dc863",
         "date": "2026-10-20T04:46:02Z",
@@ -162,12 +168,6 @@
         "date": "2026-09-21T13:44:36Z",
         "message": "Increase TxV1 Account Lock Limit to 96 (#596)",
         "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/b7ca332f0aabe11ecc6cf36143462d4487d59a39"
-      },
-      {
-        "sha": "2df3442e",
-        "date": "2026-09-16T17:33:59Z",
-        "message": "SIMD-0582: Early detection of instruction trace overflow (#582)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/2df3442ef8fca03a48999a9ce525f69224368ebb"
       }
     ],
     "official_news": [
