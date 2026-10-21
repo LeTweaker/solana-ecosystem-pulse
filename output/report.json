@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-21T01:38:24Z",
+    "generated_at": "2026-10-21T07:43:12Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -15,13 +15,13 @@
     }
   },
   "network": {
-    "slot": 459448459,
-    "block_height": 437483291,
+    "slot": 459549834,
+    "block_height": 437584651,
     "epoch": 1063,
-    "epoch_progress_pct": 53.809953703703705,
-    "avg_tps_12m": 5035.018055555555,
-    "median_tps_12m": 5018.666666666666,
-    "avg_slot_ms_12m": 216.5096094499531,
+    "epoch_progress_pct": 77.27638888888889,
+    "avg_tps_12m": 4556.8125,
+    "median_tps_12m": 4537.891666666666,
+    "avg_slot_ms_12m": 216.51299533378935,
     "active_validators": 668,
     "delinquent_validators": 11,
     "delinquent_pct": 1.6200294550810015,
@@ -79,14 +79,14 @@
         "commission_pct": 0
       }
     ],
-    "circulating_supply_sol": 589549160.2517745,
-    "total_supply_sol": 636151435.3896929,
+    "circulating_supply_sol": 589548897.3425769,
+    "total_supply_sol": 636151172.4804952,
     "inflation_rate_pct": 3.593681757749749
   },
   "economics": {
-    "sol_price_usd": 106.49,
-    "sol_24h_change_pct": 2.0794972168866965,
-    "sol_market_cap_usd": 62860894154.24896
+    "sol_price_usd": 106.51,
+    "sol_24h_change_pct": 2.0334219347565727,
+    "sol_market_cap_usd": 62809417557.039986
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -121,6 +121,12 @@
       }
     ],
     "recent_simd_commits": [
+      {
+        "sha": "27ff5a70",
+        "date": "2026-10-21T04:36:32Z",
+        "message": "SIMD-0648: Unbound LoaderV3 Instruction Data (#648)",
+        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/27ff5a704391d121869dd3bc8cfa8127483329d0"
+      },
       {
         "sha": "f13f5d65",
         "date": "2026-10-20T23:44:21Z",
@@ -162,12 +168,6 @@
         "date": "2026-09-25T00:40:21Z",
         "message": "SIMD-0215: clarify LtHash security considerations (#669)",
         "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/f1afd941b9fa5061ea80a5401feb72172121ebb5"
-      },
-      {
-        "sha": "8b157e1d",
-        "date": "2026-09-23T15:44:12Z",
-        "message": "SIMD-0558: Describe pointer validation & update CU cost (#651)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/8b157e1def5fb3b3779f0935ec71cd7cae271207"
       }
     ],
     "official_news": [
