@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-20T22:20:07Z",
+    "generated_at": "2026-10-21T01:38:24Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -15,18 +15,18 @@
     }
   },
   "network": {
-    "slot": 459393590,
-    "block_height": 437428518,
+    "slot": 459448459,
+    "block_height": 437483291,
     "epoch": 1063,
-    "epoch_progress_pct": 41.1087962962963,
-    "avg_tps_12m": 5168.327777777778,
-    "median_tps_12m": 5186.641666666666,
-    "avg_slot_ms_12m": 214.8921505144482,
-    "active_validators": 666,
-    "delinquent_validators": 13,
-    "delinquent_pct": 1.914580265095729,
-    "active_stake_sol": 435384394.6918601,
-    "top10_stake_pct": 24.52740048980325,
+    "epoch_progress_pct": 53.809953703703705,
+    "avg_tps_12m": 5035.018055555555,
+    "median_tps_12m": 5018.666666666666,
+    "avg_slot_ms_12m": 216.5096094499531,
+    "active_validators": 668,
+    "delinquent_validators": 11,
+    "delinquent_pct": 1.6200294550810015,
+    "active_stake_sol": 438566794.3465264,
+    "top10_stake_pct": 24.349420779859827,
     "top_validators": [
       {
         "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
@@ -79,14 +79,14 @@
         "commission_pct": 0
       }
     ],
-    "circulating_supply_sol": 589549301.7135386,
-    "total_supply_sol": 636151602.780413,
+    "circulating_supply_sol": 589549160.2517745,
+    "total_supply_sol": 636151435.3896929,
     "inflation_rate_pct": 3.593681757749749
   },
   "economics": {
-    "sol_price_usd": 107.0,
-    "sol_24h_change_pct": 1.4489992361752835,
-    "sol_market_cap_usd": 63086164971.19958
+    "sol_price_usd": 106.49,
+    "sol_24h_change_pct": 2.0794972168866965,
+    "sol_market_cap_usd": 62860894154.24896
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -121,6 +121,12 @@
       }
     ],
     "recent_simd_commits": [
+      {
+        "sha": "f13f5d65",
+        "date": "2026-10-20T23:44:21Z",
+        "message": "[SIMD-0565] Specify compute unit costs for the SIMD-0565 secp256r1 syscalls (#695)",
+        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/f13f5d657ccae32cb19cae84ccb6c781cd125ad7"
+      },
       {
         "sha": "33c75cff",
         "date": "2026-10-20T17:30:01Z",
@@ -162,12 +168,6 @@
         "date": "2026-09-23T15:44:12Z",
         "message": "SIMD-0558: Describe pointer validation & update CU cost (#651)",
         "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/8b157e1def5fb3b3779f0935ec71cd7cae271207"
-      },
-      {
-        "sha": "b7ca332f",
-        "date": "2026-09-21T13:44:36Z",
-        "message": "Increase TxV1 Account Lock Limit to 96 (#596)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/b7ca332f0aabe11ecc6cf36143462d4487d59a39"
       }
     ],
     "official_news": [
