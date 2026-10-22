@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-22T01:33:35Z",
+    "generated_at": "2026-10-22T07:38:48Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -15,18 +15,18 @@
     }
   },
   "network": {
-    "slot": 459850149,
-    "block_height": 437884175,
+    "slot": 459953396,
+    "block_height": 437987269,
     "epoch": 1064,
-    "epoch_progress_pct": 46.79375,
-    "avg_tps_12m": 1730.9055555555558,
-    "median_tps_12m": 1672.5666666666666,
-    "avg_slot_ms_12m": 212.78078629507388,
-    "active_validators": 668,
-    "delinquent_validators": 9,
-    "delinquent_pct": 1.329394387001477,
-    "active_stake_sol": 438845972.81222713,
-    "top10_stake_pct": 24.35290617444526,
+    "epoch_progress_pct": 70.69351851851852,
+    "avg_tps_12m": 1373.8777777777777,
+    "median_tps_12m": 1371.4416666666666,
+    "avg_slot_ms_12m": 212.4725938646077,
+    "active_validators": 667,
+    "delinquent_validators": 10,
+    "delinquent_pct": 1.4771048744460857,
+    "active_stake_sol": 438052284.8395268,
+    "top10_stake_pct": 24.397030150965634,
     "top_validators": [
       {
         "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
@@ -79,14 +79,14 @@
         "commission_pct": 0
       }
     ],
-    "circulating_supply_sol": 589604646.842083,
-    "total_supply_sol": 636212676.5909609,
+    "circulating_supply_sol": 589604548.2799352,
+    "total_supply_sol": 636212578.0288132,
     "inflation_rate_pct": 3.592083061336863
   },
   "economics": {
-    "sol_price_usd": 107.19,
-    "sol_24h_change_pct": 0.6275052117109658,
-    "sol_market_cap_usd": 63196607685.92098
+    "sol_price_usd": 104.32,
+    "sol_24h_change_pct": -2.0687929633461906,
+    "sol_market_cap_usd": 61509751970.57
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -233,5 +233,12 @@
       }
     ]
   },
-  "anomalies": []
+  "anomalies": [
+    {
+      "level": "warn",
+      "metric": "avg_tps_12m",
+      "message": "TPS is below configured floor",
+      "value": 1373.8777777777777
+    }
+  ]
 }\n
