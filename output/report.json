@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-22T22:22:48Z",
+    "generated_at": "2026-10-23T01:34:05Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -15,13 +15,13 @@
     }
   },
   "network": {
-    "slot": 460203282,
-    "block_height": 438235626,
+    "slot": 460257508,
+    "block_height": 438289827,
     "epoch": 1065,
-    "epoch_progress_pct": 28.5375,
-    "avg_tps_12m": 1512.2597222222223,
-    "median_tps_12m": 1449.8083333333334,
-    "avg_slot_ms_12m": 213.47898168981544,
+    "epoch_progress_pct": 41.089814814814815,
+    "avg_tps_12m": 1641.5222222222221,
+    "median_tps_12m": 1626.8333333333335,
+    "avg_slot_ms_12m": 211.85839260865305,
     "active_validators": 656,
     "delinquent_validators": 20,
     "delinquent_pct": 2.9585798816568047,
@@ -79,14 +79,14 @@
         "commission_pct": 0
       }
     ],
-    "circulating_supply_sol": 589653481.2855582,
-    "total_supply_sol": 636273890.7258793,
+    "circulating_supply_sol": 589653426.6783905,
+    "total_supply_sol": 636273836.8104242,
     "inflation_rate_pct": 3.59048507612502
   },
   "economics": {
-    "sol_price_usd": 103.41,
-    "sol_24h_change_pct": -3.93450698466401,
-    "sol_market_cap_usd": 60987073656.94827
+    "sol_price_usd": 103.86,
+    "sol_24h_change_pct": -2.9728498988186494,
+    "sol_market_cap_usd": 61236348445.636795
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -121,6 +121,12 @@
       }
     ],
     "recent_simd_commits": [
+      {
+        "sha": "51dbb649",
+        "date": "2026-10-23T00:25:33Z",
+        "message": "[SIMD-0529] Finalize compute unit costs for the SIMD-0529 big_mod_exp syscall (#699)",
+        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/51dbb649da0233481cc40f5640f33fe74d6dbffe"
+      },
       {
         "sha": "27ff5a70",
         "date": "2026-10-21T04:36:32Z",
@@ -162,12 +168,6 @@
         "date": "2026-09-25T15:18:56Z",
         "message": "Amend simd 0376 ed25519-zebra verification (#616)",
         "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/4b643ca8746742183a469681765e694b385bb315"
-      },
-      {
-        "sha": "f1afd941",
-        "date": "2026-09-25T00:40:21Z",
-        "message": "SIMD-0215: clarify LtHash security considerations (#669)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/f1afd941b9fa5061ea80a5401feb72172121ebb5"
       }
     ],
     "official_news": [
