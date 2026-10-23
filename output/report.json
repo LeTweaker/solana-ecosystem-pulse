@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-23T13:30:00Z",
+    "generated_at": "2026-10-23T18:24:21Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -15,78 +15,78 @@
     }
   },
   "network": {
-    "slot": 460460465,
-    "block_height": 438492705,
-    "epoch": 1065,
-    "epoch_progress_pct": 88.07060185185185,
-    "avg_tps_12m": 2072.8930555555557,
-    "median_tps_12m": 2077.225,
-    "avg_slot_ms_12m": 211.8437825797056,
-    "active_validators": 655,
-    "delinquent_validators": 21,
-    "delinquent_pct": 3.106508875739645,
-    "active_stake_sol": 436802119.10848516,
-    "top10_stake_pct": 24.46812117786097,
+    "slot": 460543882,
+    "block_height": 438574858,
+    "epoch": 1066,
+    "epoch_progress_pct": 7.380092592592592,
+    "avg_tps_12m": 2278.8694444444445,
+    "median_tps_12m": 2324.5916666666667,
+    "avg_slot_ms_12m": 211.5347650309897,
+    "active_validators": 664,
+    "delinquent_validators": 14,
+    "delinquent_pct": 2.0648967551622417,
+    "active_stake_sol": 436827007.2194576,
+    "top10_stake_pct": 24.451961325082145,
     "top_validators": [
       {
         "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
-        "stake_sol": 17133144.03017143,
+        "stake_sol": 17096229.98475625,
         "commission_pct": 7
       },
       {
         "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
-        "stake_sol": 15968621.114237716,
+        "stake_sol": 16022777.902436491,
         "commission_pct": 0
       },
       {
         "identity": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
-        "stake_sol": 12556095.511675864,
+        "stake_sol": 12572396.114967449,
         "commission_pct": 0
       },
       {
         "identity": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
-        "stake_sol": 10936236.807411084,
+        "stake_sol": 10882510.649488416,
         "commission_pct": 0
       },
       {
         "identity": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
-        "stake_sol": 9726419.81744342,
+        "stake_sol": 9724045.661416186,
         "commission_pct": 5
       },
       {
         "identity": "CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4",
-        "stake_sol": 9476173.66170678,
+        "stake_sol": 9478407.185464352,
         "commission_pct": 10
       },
       {
         "identity": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
-        "stake_sol": 9244629.075416123,
+        "stake_sol": 9213418.487287035,
         "commission_pct": 7
       },
       {
         "identity": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
-        "stake_sol": 7797558.581163021,
+        "stake_sol": 7782538.803998724,
         "commission_pct": 7
       },
       {
         "identity": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
-        "stake_sol": 7036292.596087608,
+        "stake_sol": 7037301.090908213,
         "commission_pct": 5
       },
       {
         "identity": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
-        "stake_sol": 7002100.615615707,
+        "stake_sol": 7003144.982092443,
         "commission_pct": 0
       }
     ],
-    "circulating_supply_sol": 589653223.430865,
-    "total_supply_sol": 636273633.6962051,
-    "inflation_rate_pct": 3.59048507612502
+    "circulating_supply_sol": 589709063.5817133,
+    "total_supply_sol": 636335140.662067,
+    "inflation_rate_pct": 3.5888878017978354
   },
   "economics": {
-    "sol_price_usd": 104.34,
-    "sol_24h_change_pct": -0.17891499228003152,
-    "sol_market_cap_usd": 61536177665.21
+    "sol_price_usd": 104.19,
+    "sol_24h_change_pct": 0.8059446095056662,
+    "sol_market_cap_usd": 61444174935.770035
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -172,6 +172,12 @@
     ],
     "official_news": [
       {
+        "title": "Solana Changelog: October 16, 2026",
+        "url": "https://solana.com/news/solana-changelog-october-16-2026",
+        "published_at": "Fri, 16 Oct 2026 08:08:00 GMT",
+        "category": ""
+      },
+      {
         "title": "Geo-Aware Leader Schedule",
         "url": "https://solana.com/news/geo-aware-leader-schedule",
         "published_at": "Wed, 14 Oct 2026 15:05:00 GMT",
@@ -223,12 +229,6 @@
         "title": "Introducing Solana Microscope: Program Monitoring and Alerts",
         "url": "https://solana.com/news/solana-microscope",
         "published_at": "Mon, 05 Oct 2026 00:00:00 GMT",
-        "category": ""
-      },
-      {
-        "title": "Solana x AI: The Democratization Layer",
-        "url": "https://solana.com/news/solana-ai-the-democratization-layer",
-        "published_at": "Fri, 02 Oct 2026 19:30:00 GMT",
         "category": ""
       }
     ]
