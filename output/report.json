@@ -1,27 +1,28 @@
 {
   "meta": {
-    "generated_at": "2026-10-24T00:47:35Z",
+    "generated_at": "2026-10-24T05:57:18Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
       "rpc": "ok",
       "defillama": "error",
       "market": "ok",
-      "development": "ok",
+      "development": "error",
       "news": "ok"
     },
     "errors": {
-      "defillama": "HTTPError: HTTP Error 400: Bad Request"
+      "defillama": "HTTPError: HTTP Error 400: Bad Request",
+      "development": "HTTPError: HTTP Error 403: rate limit exceeded"
     }
   },
   "network": {
-    "slot": 460652158,
-    "block_height": 438682761,
+    "slot": 460739708,
+    "block_height": 438770245,
     "epoch": 1066,
-    "epoch_progress_pct": 32.44398148148148,
-    "avg_tps_12m": 2159.2194444444444,
-    "median_tps_12m": 2170.05,
-    "avg_slot_ms_12m": 212.16258855787018,
+    "epoch_progress_pct": 52.71018518518518,
+    "avg_tps_12m": 1207.8111111111111,
+    "median_tps_12m": 1220.4833333333333,
+    "avg_slot_ms_12m": 212.21982589101333,
     "active_validators": 664,
     "delinquent_validators": 14,
     "delinquent_pct": 2.0648967551622417,
@@ -79,97 +80,20 @@
         "commission_pct": 0
       }
     ],
-    "circulating_supply_sol": 589708912.0994457,
-    "total_supply_sol": 636335013.1470468,
+    "circulating_supply_sol": 589708828.3989713,
+    "total_supply_sol": 636334929.4876641,
     "inflation_rate_pct": 3.5888878017978354
   },
   "economics": {
-    "sol_price_usd": 102.06,
-    "sol_24h_change_pct": -1.7511018103870808,
-    "sol_market_cap_usd": 60157441955.479996
+    "sol_price_usd": 102.26,
+    "sol_24h_change_pct": -2.014525369802195,
+    "sol_market_cap_usd": 60302924217.50773
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
     "daily_active_addresses": null
   },
   "development": {
-    "agave_releases": [
-      {
-        "tag": "v4.3.2",
-        "published_at": "2026-10-15T22:20:41Z",
-        "url": "https://github.com/anza-xyz/agave/releases/tag/v4.3.2"
-      },
-      {
-        "tag": "v4.4.0-beta.1",
-        "published_at": "2026-10-13T06:35:48Z",
-        "url": "https://github.com/anza-xyz/agave/releases/tag/v4.4.0-beta.1"
-      },
-      {
-        "tag": "v4.5.0-alpha.2",
-        "published_at": "2026-10-08T20:27:41Z",
-        "url": "https://github.com/anza-xyz/agave/releases/tag/v4.5.0-alpha.2"
-      },
-      {
-        "tag": "v4.5.0-alpha.1",
-        "published_at": "2026-10-03T06:50:48Z",
-        "url": "https://github.com/anza-xyz/agave/releases/tag/v4.5.0-alpha.1"
-      },
-      {
-        "tag": "v4.4.0-beta.0",
-        "published_at": "2026-09-28T15:10:04Z",
-        "url": "https://github.com/anza-xyz/agave/releases/tag/v4.4.0-beta.0"
-      }
-    ],
-    "recent_simd_commits": [
-      {
-        "sha": "a084840a",
-        "date": "2026-10-23T10:25:24Z",
-        "message": "SIMD-0683: Pass ABIv1 input metadata via registers r3\u2013r5 (#683)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/a084840a512454a7ee5e2ef8dd736c790102bea0"
-      },
-      {
-        "sha": "51dbb649",
-        "date": "2026-10-23T00:25:33Z",
-        "message": "[SIMD-0529] Finalize compute unit costs for the SIMD-0529 big_mod_exp syscall (#699)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/51dbb649da0233481cc40f5640f33fe74d6dbffe"
-      },
-      {
-        "sha": "27ff5a70",
-        "date": "2026-10-21T04:36:32Z",
-        "message": "SIMD-0648: Unbound LoaderV3 Instruction Data (#648)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/27ff5a704391d121869dd3bc8cfa8127483329d0"
-      },
-      {
-        "sha": "f13f5d65",
-        "date": "2026-10-20T23:44:21Z",
-        "message": "[SIMD-0565] Specify compute unit costs for the SIMD-0565 secp256r1 syscalls (#695)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/f13f5d657ccae32cb19cae84ccb6c781cd125ad7"
-      },
-      {
-        "sha": "33c75cff",
-        "date": "2026-10-20T17:30:01Z",
-        "message": "simd-0504: remove identical signature requirement (#593)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/33c75cffdeb38468989313c6381c179a541808f1"
-      },
-      {
-        "sha": "749dc863",
-        "date": "2026-10-20T04:46:02Z",
-        "message": "SIMD-0686: Single Program Runtime Environment (#688)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/749dc8635821383c5c259d616e337687707f3ef9"
-      },
-      {
-        "sha": "f24b888c",
-        "date": "2026-10-20T04:45:01Z",
-        "message": "SIMD-0684: Loader V3: Allow Prefunded ProgramData (#684)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/f24b888c352c115f08438ebdb57f5bba46136745"
-      },
-      {
-        "sha": "f1f6c8b0",
-        "date": "2026-10-06T04:09:02Z",
-        "message": "amend SIMD-0464: clarify aliasing rules (#618)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/f1f6c8b05dc205552d3c290a854a438392701107"
-      }
-    ],
     "official_news": [
       {
         "title": "Solana Changelog: October 16, 2026",
@@ -233,5 +157,12 @@
       }
     ]
   },
-  "anomalies": []
+  "anomalies": [
+    {
+      "level": "warn",
+      "metric": "avg_tps_12m",
+      "message": "TPS is below configured floor",
+      "value": 1207.8111111111111
+    }
+  ]
 }\n
