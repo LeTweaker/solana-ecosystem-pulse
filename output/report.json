@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-24T20:54:09Z",
+    "generated_at": "2026-10-24T23:18:48Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -15,13 +15,13 @@
     }
   },
   "network": {
-    "slot": 460993345,
-    "block_height": 439022520,
+    "slot": 461034239,
+    "block_height": 439063316,
     "epoch": 1067,
-    "epoch_progress_pct": 11.422453703703704,
-    "avg_tps_12m": 1993.948611111111,
-    "median_tps_12m": 1990.4916666666668,
-    "avg_slot_ms_12m": 212.22540090545795,
+    "epoch_progress_pct": 20.888657407407408,
+    "avg_tps_12m": 1712.3597222222222,
+    "median_tps_12m": 1827.6583333333333,
+    "avg_slot_ms_12m": 210.90735645355008,
     "active_validators": 665,
     "delinquent_validators": 25,
     "delinquent_pct": 3.6231884057971016,
@@ -79,14 +79,14 @@
         "commission_pct": 0
       }
     ],
-    "circulating_supply_sol": 589764421.2131069,
-    "total_supply_sol": 636396177.5703,
+    "circulating_supply_sol": 589764380.9704224,
+    "total_supply_sol": 636396137.3276156,
     "inflation_rate_pct": 3.5872912380390622
   },
   "economics": {
-    "sol_price_usd": 101.46,
-    "sol_24h_change_pct": -2.304960365103501,
-    "sol_market_cap_usd": 59834529734.25948
+    "sol_price_usd": 101.5,
+    "sol_24h_change_pct": -0.616933884896374,
+    "sol_market_cap_usd": 59868205776.57519
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -121,6 +121,12 @@
       }
     ],
     "recent_simd_commits": [
+      {
+        "sha": "c9ec366a",
+        "date": "2026-10-24T22:04:31Z",
+        "message": "SIMD-0670: ABIv1 invoke signed v2 syscall (#670)",
+        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/c9ec366af14dd32a74259f5d9f5772249188bd25"
+      },
       {
         "sha": "a084840a",
         "date": "2026-10-23T10:25:24Z",
@@ -162,12 +168,6 @@
         "date": "2026-10-20T04:45:01Z",
         "message": "SIMD-0684: Loader V3: Allow Prefunded ProgramData (#684)",
         "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/f24b888c352c115f08438ebdb57f5bba46136745"
-      },
-      {
-        "sha": "f1f6c8b0",
-        "date": "2026-10-06T04:09:02Z",
-        "message": "amend SIMD-0464: clarify aliasing rules (#618)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/f1f6c8b05dc205552d3c290a854a438392701107"
       }
     ],
     "official_news": [
