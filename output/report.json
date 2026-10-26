@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-26T14:20:01Z",
+    "generated_at": "2026-10-26T20:32:20Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -15,13 +15,13 @@
     }
   },
   "network": {
-    "slot": 461695433,
-    "block_height": 439722582,
+    "slot": 461800620,
+    "block_height": 439827674,
     "epoch": 1068,
-    "epoch_progress_pct": 73.94282407407407,
-    "avg_tps_12m": 3004.161111111111,
-    "median_tps_12m": 3013.125,
-    "avg_slot_ms_12m": 213.103008321808,
+    "epoch_progress_pct": 98.29166666666667,
+    "avg_tps_12m": 2062.176388888889,
+    "median_tps_12m": 2093.7916666666665,
+    "avg_slot_ms_12m": 213.7458641871118,
     "active_validators": 665,
     "delinquent_validators": 25,
     "delinquent_pct": 3.6231884057971016,
@@ -79,14 +79,14 @@
         "commission_pct": 0
       }
     ],
-    "circulating_supply_sol": 589819599.9480858,
-    "total_supply_sol": 636457037.5572689,
+    "circulating_supply_sol": 589819453.4013,
+    "total_supply_sol": 636456891.0264633,
     "inflation_rate_pct": 3.5856953845325945
   },
   "economics": {
-    "sol_price_usd": 101.32,
-    "sol_24h_change_pct": 0.6732789032033998,
-    "sol_market_cap_usd": 59748302691.314125
+    "sol_price_usd": 100.11,
+    "sol_24h_change_pct": -1.4916340036618363,
+    "sol_market_cap_usd": 59048432698.45552
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -94,6 +94,11 @@
   },
   "development": {
     "agave_releases": [
+      {
+        "tag": "v4.5.0-alpha.4",
+        "published_at": "2026-10-26T20:06:18Z",
+        "url": "https://github.com/anza-xyz/agave/releases/tag/v4.5.0-alpha.4"
+      },
       {
         "tag": "v4.3.2",
         "published_at": "2026-10-15T22:20:41Z",
@@ -113,11 +118,6 @@
         "tag": "v4.5.0-alpha.1",
         "published_at": "2026-10-03T06:50:48Z",
         "url": "https://github.com/anza-xyz/agave/releases/tag/v4.5.0-alpha.1"
-      },
-      {
-        "tag": "v4.4.0-beta.0",
-        "published_at": "2026-09-28T15:10:04Z",
-        "url": "https://github.com/anza-xyz/agave/releases/tag/v4.4.0-beta.0"
       }
     ],
     "recent_simd_commits": [
