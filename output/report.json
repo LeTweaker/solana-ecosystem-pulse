@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-26T06:19:08Z",
+    "generated_at": "2026-10-26T14:20:01Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -15,13 +15,13 @@
     }
   },
   "network": {
-    "slot": 461559700,
-    "block_height": 439586956,
+    "slot": 461695433,
+    "block_height": 439722582,
     "epoch": 1068,
-    "epoch_progress_pct": 42.523148148148145,
-    "avg_tps_12m": 1327.0902777777778,
-    "median_tps_12m": 1319.5500000000002,
-    "avg_slot_ms_12m": 213.31275921270574,
+    "epoch_progress_pct": 73.94282407407407,
+    "avg_tps_12m": 3004.161111111111,
+    "median_tps_12m": 3013.125,
+    "avg_slot_ms_12m": 213.103008321808,
     "active_validators": 665,
     "delinquent_validators": 25,
     "delinquent_pct": 3.6231884057971016,
@@ -79,14 +79,14 @@
         "commission_pct": 0
       }
     ],
-    "circulating_supply_sol": 589819728.3858954,
-    "total_supply_sol": 636457165.9870864,
+    "circulating_supply_sol": 589819599.9480858,
+    "total_supply_sol": 636457037.5572689,
     "inflation_rate_pct": 3.5856953845325945
   },
   "economics": {
-    "sol_price_usd": 101.06,
-    "sol_24h_change_pct": -0.7057740470457975,
-    "sol_market_cap_usd": 59553025891.88707
+    "sol_price_usd": 101.32,
+    "sol_24h_change_pct": 0.6732789032033998,
+    "sol_market_cap_usd": 59748302691.314125
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -94,11 +94,6 @@
   },
   "development": {
     "agave_releases": [
-      {
-        "tag": "v4.4.0-rc.0",
-        "published_at": "2026-10-24T07:27:33Z",
-        "url": "https://github.com/anza-xyz/agave/releases/tag/v4.4.0-rc.0"
-      },
       {
         "tag": "v4.3.2",
         "published_at": "2026-10-15T22:20:41Z",
@@ -118,9 +113,20 @@
         "tag": "v4.5.0-alpha.1",
         "published_at": "2026-10-03T06:50:48Z",
         "url": "https://github.com/anza-xyz/agave/releases/tag/v4.5.0-alpha.1"
+      },
+      {
+        "tag": "v4.4.0-beta.0",
+        "published_at": "2026-09-28T15:10:04Z",
+        "url": "https://github.com/anza-xyz/agave/releases/tag/v4.4.0-beta.0"
       }
     ],
     "recent_simd_commits": [
+      {
+        "sha": "eac20f29",
+        "date": "2026-10-26T08:30:54Z",
+        "message": "SIMD-0690: Hash validation in program migrations and upgrades (#690)",
+        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/eac20f2994dd064482d96f178a4bbc0f4e358fd0"
+      },
       {
         "sha": "c9ec366a",
         "date": "2026-10-24T22:04:31Z",
@@ -162,15 +168,15 @@
         "date": "2026-10-20T04:46:02Z",
         "message": "SIMD-0686: Single Program Runtime Environment (#688)",
         "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/749dc8635821383c5c259d616e337687707f3ef9"
-      },
-      {
-        "sha": "f24b888c",
-        "date": "2026-10-20T04:45:01Z",
-        "message": "SIMD-0684: Loader V3: Allow Prefunded ProgramData (#684)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/f24b888c352c115f08438ebdb57f5bba46136745"
       }
     ],
     "official_news": [
+      {
+        "title": "Solana Changelog: October 22, 2026",
+        "url": "https://solana.com/news/solana-changelog-october-22-2026",
+        "published_at": "Fri, 23 Oct 2026 01:09:00 GMT",
+        "category": ""
+      },
       {
         "title": "Solana Changelog: October 16, 2026",
         "url": "https://solana.com/news/solana-changelog-october-16-2026",
@@ -224,21 +230,8 @@
         "url": "https://solana.com/news/solana-foundation-launches-solana-dv-p-an-atomic-settlement-program-built-for-financial-institutions",
         "published_at": "Tue, 06 Oct 2026 02:00:00 GMT",
         "category": ""
-      },
-      {
-        "title": "Introducing Solana Microscope: Program Monitoring and Alerts",
-        "url": "https://solana.com/news/solana-microscope",
-        "published_at": "Mon, 05 Oct 2026 00:00:00 GMT",
-        "category": ""
       }
     ]
   },
-  "anomalies": [
-    {
-      "level": "warn",
-      "metric": "avg_tps_12m",
-      "message": "TPS is below configured floor",
-      "value": 1327.0902777777778
-    }
-  ]
+  "anomalies": []
 }\n
