@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-27T06:21:05Z",
+    "generated_at": "2026-10-27T13:16:25Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -15,18 +15,18 @@
     }
   },
   "network": {
-    "slot": 461966871,
-    "block_height": 439992718,
+    "slot": 462084083,
+    "block_height": 440109795,
     "epoch": 1069,
-    "epoch_progress_pct": 36.77569444444445,
-    "avg_tps_12m": 1363.9319444444445,
-    "median_tps_12m": 1388.1833333333334,
-    "avg_slot_ms_12m": 213.12232439935198,
-    "active_validators": 664,
-    "delinquent_validators": 21,
-    "delinquent_pct": 3.065693430656934,
-    "active_stake_sol": 436364356.30491906,
-    "top10_stake_pct": 24.607137383327323,
+    "epoch_progress_pct": 63.90810185185185,
+    "avg_tps_12m": 1643.3972222222221,
+    "median_tps_12m": 1581.9916666666668,
+    "avg_slot_ms_12m": 212.46547675781218,
+    "active_validators": 665,
+    "delinquent_validators": 20,
+    "delinquent_pct": 2.9197080291970803,
+    "active_stake_sol": 436501444.52915126,
+    "top10_stake_pct": 24.599409233032297,
     "top_validators": [
       {
         "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
@@ -79,14 +79,14 @@
         "commission_pct": 0
       }
     ],
-    "circulating_supply_sol": 589874661.3104075,
-    "total_supply_sol": 636517735.5177728,
+    "circulating_supply_sol": 589874570.176411,
+    "total_supply_sol": 636517644.3864844,
     "inflation_rate_pct": 3.584100240962467
   },
   "economics": {
-    "sol_price_usd": 99.81,
-    "sol_24h_change_pct": -1.2263761087242677,
-    "sol_market_cap_usd": 58875552605.016464
+    "sol_price_usd": 100.55,
+    "sol_24h_change_pct": -0.6389330424691162,
+    "sol_market_cap_usd": 59335035355.15474
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -172,6 +172,12 @@
     ],
     "official_news": [
       {
+        "title": "Solana Breakpoint 2026 Adds Revolut Chair, Former Prime Minister, Former Chancellor and City Leaders to London Lineup",
+        "url": "https://solana.com/news/breakpoint-london-lineup",
+        "published_at": "Mon, 26 Oct 2026 10:00:00 GMT",
+        "category": ""
+      },
+      {
         "title": "Solana Changelog: October 22, 2026",
         "url": "https://solana.com/news/solana-changelog-october-22-2026",
         "published_at": "Fri, 23 Oct 2026 01:09:00 GMT",
@@ -224,21 +230,8 @@
         "url": "https://solana.com/news/solana-ecosystem-roundup-september-2026",
         "published_at": "Tue, 06 Oct 2026 19:38:00 GMT",
         "category": ""
-      },
-      {
-        "title": "Solana Foundation Launches Solana DvP, an Atomic Settlement Program Built for Financial Institutions",
-        "url": "https://solana.com/news/solana-foundation-launches-solana-dv-p-an-atomic-settlement-program-built-for-financial-institutions",
-        "published_at": "Tue, 06 Oct 2026 02:00:00 GMT",
-        "category": ""
       }
     ]
   },
-  "anomalies": [
-    {
-      "level": "warn",
-      "metric": "avg_tps_12m",
-      "message": "TPS is below configured floor",
-      "value": 1363.9319444444445
-    }
-  ]
+  "anomalies": []
 }\n
