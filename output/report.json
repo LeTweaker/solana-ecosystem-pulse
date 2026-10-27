@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-26T20:32:20Z",
+    "generated_at": "2026-10-27T00:30:01Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -15,78 +15,78 @@
     }
   },
   "network": {
-    "slot": 461800620,
-    "block_height": 439827674,
-    "epoch": 1068,
-    "epoch_progress_pct": 98.29166666666667,
-    "avg_tps_12m": 2062.176388888889,
-    "median_tps_12m": 2093.7916666666665,
-    "avg_slot_ms_12m": 213.7458641871118,
+    "slot": 461867752,
+    "block_height": 439893726,
+    "epoch": 1069,
+    "epoch_progress_pct": 13.83148148148148,
+    "avg_tps_12m": 1960.461111111111,
+    "median_tps_12m": 1978.175,
+    "avg_slot_ms_12m": 212.1179481233178,
     "active_validators": 665,
-    "delinquent_validators": 25,
-    "delinquent_pct": 3.6231884057971016,
-    "active_stake_sol": 437176499.8250075,
-    "top10_stake_pct": 24.574009673828993,
+    "delinquent_validators": 20,
+    "delinquent_pct": 2.9197080291970803,
+    "active_stake_sol": 436501444.52915126,
+    "top10_stake_pct": 24.599409233032297,
     "top_validators": [
       {
         "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
-        "stake_sol": 17102487.440601066,
+        "stake_sol": 17059304.440214597,
         "commission_pct": 7
       },
       {
         "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
-        "stake_sol": 16635522.72408152,
+        "stake_sol": 16636452.760071184,
         "commission_pct": 0
       },
       {
         "identity": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
-        "stake_sol": 12594585.298764711,
+        "stake_sol": 12660116.858526899,
         "commission_pct": 0
       },
       {
         "identity": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
-        "stake_sol": 10882967.432872511,
+        "stake_sol": 10812576.742026506,
         "commission_pct": 0
       },
       {
         "identity": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
-        "stake_sol": 9720519.993470564,
+        "stake_sol": 9716980.312545326,
         "commission_pct": 5
       },
       {
         "identity": "CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4",
-        "stake_sol": 9492381.775754089,
+        "stake_sol": 9494053.086620687,
         "commission_pct": 10
       },
       {
         "identity": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
-        "stake_sol": 9187388.15115172,
+        "stake_sol": 9206551.544672294,
         "commission_pct": 7
       },
       {
         "identity": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
-        "stake_sol": 7787017.530849796,
+        "stake_sol": 7754188.747150693,
         "commission_pct": 7
       },
       {
         "identity": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
-        "stake_sol": 7039208.636271197,
+        "stake_sol": 7040177.157491287,
         "commission_pct": 5
       },
       {
         "identity": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
-        "stake_sol": 6989716.37488717,
+        "stake_sol": 6996374.998503909,
         "commission_pct": 0
       }
     ],
-    "circulating_supply_sol": 589819453.4013,
-    "total_supply_sol": 636456891.0264633,
-    "inflation_rate_pct": 3.5856953845325945
+    "circulating_supply_sol": 589874755.6443666,
+    "total_supply_sol": 636517829.8517319,
+    "inflation_rate_pct": 3.584100240962467
   },
   "economics": {
-    "sol_price_usd": 100.11,
-    "sol_24h_change_pct": -1.4916340036618363,
-    "sol_market_cap_usd": 59048432698.45552
+    "sol_price_usd": 100.77,
+    "sol_24h_change_pct": -0.570265989515641,
+    "sol_market_cap_usd": 59439657253.60587
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -98,6 +98,11 @@
         "tag": "v4.5.0-alpha.4",
         "published_at": "2026-10-26T20:06:18Z",
         "url": "https://github.com/anza-xyz/agave/releases/tag/v4.5.0-alpha.4"
+      },
+      {
+        "tag": "v4.4.0-rc.1",
+        "published_at": "2026-10-26T21:15:55Z",
+        "url": "https://github.com/anza-xyz/agave/releases/tag/v4.4.0-rc.1"
       },
       {
         "tag": "v4.3.2",
@@ -113,11 +118,6 @@
         "tag": "v4.5.0-alpha.2",
         "published_at": "2026-10-08T20:27:41Z",
         "url": "https://github.com/anza-xyz/agave/releases/tag/v4.5.0-alpha.2"
-      },
-      {
-        "tag": "v4.5.0-alpha.1",
-        "published_at": "2026-10-03T06:50:48Z",
-        "url": "https://github.com/anza-xyz/agave/releases/tag/v4.5.0-alpha.1"
       }
     ],
     "recent_simd_commits": [
