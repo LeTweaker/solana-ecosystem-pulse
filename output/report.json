@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-28T09:45:39Z",
+    "generated_at": "2026-10-28T16:41:09Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -8,25 +8,26 @@
       "defillama": "error",
       "market": "ok",
       "development": "ok",
-      "news": "ok"
+      "news": "error"
     },
     "errors": {
-      "defillama": "HTTPError: HTTP Error 400: Bad Request"
+      "defillama": "HTTPError: HTTP Error 400: Bad Request",
+      "news": "HTTPError: HTTP Error 429: Too Many Requests"
     }
   },
   "network": {
-    "slot": 462430439,
-    "block_height": 440455027,
+    "slot": 462547549,
+    "block_height": 440572020,
     "epoch": 1070,
-    "epoch_progress_pct": 44.08310185185185,
-    "avg_tps_12m": 1572.7694444444444,
-    "median_tps_12m": 1509.1083333333331,
-    "avg_slot_ms_12m": 212.09135265799637,
-    "active_validators": 662,
-    "delinquent_validators": 29,
-    "delinquent_pct": 4.196816208393632,
-    "active_stake_sol": 433415732.94041383,
-    "top10_stake_pct": 24.79435712623282,
+    "epoch_progress_pct": 71.19189814814816,
+    "avg_tps_12m": 2081.425,
+    "median_tps_12m": 2025.3166666666666,
+    "avg_slot_ms_12m": 212.22552478949544,
+    "active_validators": 660,
+    "delinquent_validators": 31,
+    "delinquent_pct": 4.486251808972503,
+    "active_stake_sol": 433380236.4782733,
+    "top10_stake_pct": 24.796387934019958,
     "top_validators": [
       {
         "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
@@ -79,14 +80,14 @@
         "commission_pct": 0
       }
     ],
-    "circulating_supply_sol": 589928433.9774977,
-    "total_supply_sol": 636578226.4882349,
+    "circulating_supply_sol": 589928316.2667453,
+    "total_supply_sol": 636578108.7774825,
     "inflation_rate_pct": 3.5825058070128564
   },
   "economics": {
-    "sol_price_usd": 102.61,
-    "sol_24h_change_pct": 3.0975289089824867,
-    "sol_market_cap_usd": 60533824396.37615
+    "sol_price_usd": 100.94,
+    "sol_24h_change_pct": -0.026085987612669996,
+    "sol_market_cap_usd": 59534632019.156265
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -168,68 +169,6 @@
         "date": "2026-10-20T04:46:02Z",
         "message": "SIMD-0686: Single Program Runtime Environment (#688)",
         "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/749dc8635821383c5c259d616e337687707f3ef9"
-      }
-    ],
-    "official_news": [
-      {
-        "title": "Solana Breakpoint 2026 Adds Revolut Chair, Former Prime Minister, Former Chancellor and City Leaders to London Lineup",
-        "url": "https://solana.com/news/breakpoint-london-lineup",
-        "published_at": "Mon, 26 Oct 2026 10:00:00 GMT",
-        "category": ""
-      },
-      {
-        "title": "Solana Changelog: October 22, 2026",
-        "url": "https://solana.com/news/solana-changelog-october-22-2026",
-        "published_at": "Fri, 23 Oct 2026 01:09:00 GMT",
-        "category": ""
-      },
-      {
-        "title": "Solana Changelog: October 16, 2026",
-        "url": "https://solana.com/news/solana-changelog-october-16-2026",
-        "published_at": "Fri, 16 Oct 2026 08:08:00 GMT",
-        "category": ""
-      },
-      {
-        "title": "Geo-Aware Leader Schedule",
-        "url": "https://solana.com/news/geo-aware-leader-schedule",
-        "published_at": "Wed, 14 Oct 2026 15:05:00 GMT",
-        "category": ""
-      },
-      {
-        "title": "More Breakpoint 2026 Speakers Confirmed for London",
-        "url": "https://solana.com/news/breakpoint-2026-london-speakers-2",
-        "published_at": "Mon, 12 Oct 2026 04:41:00 GMT",
-        "category": ""
-      },
-      {
-        "title": "Payments on Solana: September 2026 in Five Stories",
-        "url": "https://solana.com/news/payments-on-solana-september-2026-in-five-stories",
-        "published_at": "Fri, 09 Oct 2026 12:46:00 GMT",
-        "category": ""
-      },
-      {
-        "title": "Breakpoint 2026: Booked Breakpoint? Let's Get You Prepped (Part 2)",
-        "url": "https://solana.com/news/breakpoint-guide-part2",
-        "published_at": "Thu, 08 Oct 2026 18:18:00 GMT",
-        "category": ""
-      },
-      {
-        "title": "Solana Changelog: October 8, 2026",
-        "url": "https://solana.com/news/solana-changelog-october-8-2026",
-        "published_at": "Thu, 08 Oct 2026 08:33:00 GMT",
-        "category": ""
-      },
-      {
-        "title": "Samsung Partners with Solana to Natively Deliver Stablecoins in Samsung Wallet to 82 Million U.S. Galaxy Devices",
-        "url": "https://solana.com/news/samsung-wallet",
-        "published_at": "Wed, 07 Oct 2026 23:30:00 GMT",
-        "category": ""
-      },
-      {
-        "title": "Solana Ecosystem Roundup: September 2026",
-        "url": "https://solana.com/news/solana-ecosystem-roundup-september-2026",
-        "published_at": "Tue, 06 Oct 2026 19:38:00 GMT",
-        "category": ""
       }
     ]
   },
