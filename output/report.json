@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-29T01:50:58Z",
+    "generated_at": "2026-10-29T08:34:55Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -16,18 +16,18 @@
     }
   },
   "network": {
-    "slot": 462701959,
-    "block_height": 440725689,
+    "slot": 462815448,
+    "block_height": 440838944,
     "epoch": 1071,
-    "epoch_progress_pct": 6.9349537037037035,
-    "avg_tps_12m": 1894.3527777777779,
-    "median_tps_12m": 1816.5,
-    "avg_slot_ms_12m": 214.82125687793555,
+    "epoch_progress_pct": 33.205555555555556,
+    "avg_tps_12m": 1038.7749999999999,
+    "median_tps_12m": 999.1083333333333,
+    "avg_slot_ms_12m": 212.85602362975683,
     "active_validators": 665,
     "delinquent_validators": 24,
     "delinquent_pct": 3.483309143686502,
-    "active_stake_sol": 433362540.9187455,
-    "top10_stake_pct": 24.72088340873076,
+    "active_stake_sol": 433290232.37196416,
+    "top10_stake_pct": 24.72500889096158,
     "top_validators": [
       {
         "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
@@ -80,14 +80,14 @@
         "commission_pct": 5
       }
     ],
-    "circulating_supply_sol": 589983984.5748485,
-    "total_supply_sol": 636639502.3399143,
+    "circulating_supply_sol": 589983859.0850126,
+    "total_supply_sol": 636639412.9547875,
     "inflation_rate_pct": 3.580912082368078
   },
   "economics": {
-    "sol_price_usd": 100.24,
-    "sol_24h_change_pct": -1.317342670347995,
-    "sol_market_cap_usd": 59327870469.30944
+    "sol_price_usd": 99.94,
+    "sol_24h_change_pct": -2.7991747256879562,
+    "sol_market_cap_usd": 58968113295.18609
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -172,5 +172,12 @@
       }
     ]
   },
-  "anomalies": []
+  "anomalies": [
+    {
+      "level": "warn",
+      "metric": "avg_tps_12m",
+      "message": "TPS is below configured floor",
+      "value": 1038.7749999999999
+    }
+  ]
 }\n
