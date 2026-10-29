@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-29T08:34:55Z",
+    "generated_at": "2026-10-29T16:12:26Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -16,18 +16,18 @@
     }
   },
   "network": {
-    "slot": 462815448,
-    "block_height": 440838944,
+    "slot": 462943848,
+    "block_height": 440967240,
     "epoch": 1071,
-    "epoch_progress_pct": 33.205555555555556,
-    "avg_tps_12m": 1038.7749999999999,
-    "median_tps_12m": 999.1083333333333,
-    "avg_slot_ms_12m": 212.85602362975683,
-    "active_validators": 665,
-    "delinquent_validators": 24,
-    "delinquent_pct": 3.483309143686502,
-    "active_stake_sol": 433290232.37196416,
-    "top10_stake_pct": 24.72500889096158,
+    "epoch_progress_pct": 62.92777777777778,
+    "avg_tps_12m": 2407.5597222222223,
+    "median_tps_12m": 2449.575,
+    "avg_slot_ms_12m": 213.4812516763674,
+    "active_validators": 666,
+    "delinquent_validators": 23,
+    "delinquent_pct": 3.3381712626995648,
+    "active_stake_sol": 433555190.54912984,
+    "top10_stake_pct": 24.709898719456408,
     "top_validators": [
       {
         "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
@@ -80,14 +80,14 @@
         "commission_pct": 5
       }
     ],
-    "circulating_supply_sol": 589983859.0850126,
-    "total_supply_sol": 636639412.9547875,
+    "circulating_supply_sol": 589983730.887251,
+    "total_supply_sol": 636639284.757026,
     "inflation_rate_pct": 3.580912082368078
   },
   "economics": {
-    "sol_price_usd": 99.94,
-    "sol_24h_change_pct": -2.7991747256879562,
-    "sol_market_cap_usd": 58968113295.18609
+    "sol_price_usd": 102.8,
+    "sol_24h_change_pct": 1.9221796582462127,
+    "sol_market_cap_usd": 60696751475.36634
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -122,6 +122,12 @@
       }
     ],
     "recent_simd_commits": [
+      {
+        "sha": "2be4cb0c",
+        "date": "2026-10-29T14:07:01Z",
+        "message": "docs: align SIMD-0550 with the integer inflation schedule (#704)",
+        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/2be4cb0c0fd1025df8c037b19372f7346119b231"
+      },
       {
         "sha": "6cc17538",
         "date": "2026-10-28T18:29:33Z",
@@ -163,21 +169,8 @@
         "date": "2026-10-21T04:36:32Z",
         "message": "SIMD-0648: Unbound LoaderV3 Instruction Data (#648)",
         "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/27ff5a704391d121869dd3bc8cfa8127483329d0"
-      },
-      {
-        "sha": "f13f5d65",
-        "date": "2026-10-20T23:44:21Z",
-        "message": "[SIMD-0565] Specify compute unit costs for the SIMD-0565 secp256r1 syscalls (#695)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/f13f5d657ccae32cb19cae84ccb6c781cd125ad7"
       }
     ]
   },
-  "anomalies": [
-    {
-      "level": "warn",
-      "metric": "avg_tps_12m",
-      "message": "TPS is below configured floor",
-      "value": 1038.7749999999999
-    }
-  ]
+  "anomalies": []
 }\n
