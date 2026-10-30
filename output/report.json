@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-30T14:16:20Z",
+    "generated_at": "2026-10-30T19:29:34Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -11,23 +11,23 @@
       "news": "error"
     },
     "errors": {
-      "defillama": "HTTPError: HTTP Error 429: Too Many Requests",
+      "defillama": "HTTPError: HTTP Error 400: Bad Request",
       "news": "HTTPError: HTTP Error 429: Too Many Requests"
     }
   },
   "network": {
-    "slot": 463315469,
-    "block_height": 441337813,
+    "slot": 463403254,
+    "block_height": 441425550,
     "epoch": 1072,
-    "epoch_progress_pct": 48.95115740740741,
-    "avg_tps_12m": 2088.090277777778,
-    "median_tps_12m": 2120.4166666666665,
-    "avg_slot_ms_12m": 212.98374177573768,
-    "active_validators": 665,
-    "delinquent_validators": 26,
-    "delinquent_pct": 3.7626628075253254,
-    "active_stake_sol": 432178785.8288869,
-    "top10_stake_pct": 24.81566237549913,
+    "epoch_progress_pct": 69.27175925925926,
+    "avg_tps_12m": 2238.486111111111,
+    "median_tps_12m": 2181.9,
+    "avg_slot_ms_12m": 212.78104997242863,
+    "active_validators": 667,
+    "delinquent_validators": 24,
+    "delinquent_pct": 3.4732272069464543,
+    "active_stake_sol": 432645740.1446576,
+    "top10_stake_pct": 24.788878844379482,
     "top_validators": [
       {
         "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
@@ -80,14 +80,14 @@
         "commission_pct": 0
       }
     ],
-    "circulating_supply_sol": 590039860.4552693,
-    "total_supply_sol": 636700255.1282114,
+    "circulating_supply_sol": 590039744.547531,
+    "total_supply_sol": 636700139.9007711,
     "inflation_rate_pct": 3.579319066712587
   },
   "economics": {
-    "sol_price_usd": 94.42,
-    "sol_24h_change_pct": -6.188251232609447,
-    "sol_market_cap_usd": 55715391811.86491
+    "sol_price_usd": 94.37,
+    "sol_24h_change_pct": -5.795135809829807,
+    "sol_market_cap_usd": 55680508915.240364
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
