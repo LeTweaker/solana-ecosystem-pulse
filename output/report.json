@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-31T05:50:47Z",
+    "generated_at": "2026-10-31T12:40:11Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -16,18 +16,18 @@
     }
   },
   "network": {
-    "slot": 463577014,
-    "block_height": 441598922,
+    "slot": 463691851,
+    "block_height": 441713703,
     "epoch": 1073,
-    "epoch_progress_pct": 9.493981481481482,
-    "avg_tps_12m": 1099.7416666666666,
-    "median_tps_12m": 1079.7666666666667,
-    "avg_slot_ms_12m": 213.48067495348482,
-    "active_validators": 664,
-    "delinquent_validators": 28,
-    "delinquent_pct": 4.046242774566474,
-    "active_stake_sol": 429925159.17935246,
-    "top10_stake_pct": 24.92302988875014,
+    "epoch_progress_pct": 36.07662037037037,
+    "avg_tps_12m": 1213.9277777777777,
+    "median_tps_12m": 1156.5666666666666,
+    "avg_slot_ms_12m": 214.66055472381046,
+    "active_validators": 665,
+    "delinquent_validators": 27,
+    "delinquent_pct": 3.901734104046243,
+    "active_stake_sol": 429974623.4398946,
+    "top10_stake_pct": 24.92016274455904,
     "top_validators": [
       {
         "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
@@ -80,14 +80,14 @@
         "commission_pct": 5
       }
     ],
-    "circulating_supply_sol": 590095205.6005263,
-    "total_supply_sol": 636761273.0495427,
+    "circulating_supply_sol": 590095134.9706447,
+    "total_supply_sol": 636761202.419661,
     "inflation_rate_pct": 3.5777267597309823
   },
   "economics": {
-    "sol_price_usd": 95.93,
-    "sol_24h_change_pct": -2.317155599204463,
-    "sol_market_cap_usd": 56617212745.79377
+    "sol_price_usd": 96.14,
+    "sol_24h_change_pct": -0.48105755053179206,
+    "sol_market_cap_usd": 56732762335.87819
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -177,7 +177,7 @@
       "level": "warn",
       "metric": "avg_tps_12m",
       "message": "TPS is below configured floor",
-      "value": 1099.7416666666666
+      "value": 1213.9277777777777
     }
   ]
 }\n
