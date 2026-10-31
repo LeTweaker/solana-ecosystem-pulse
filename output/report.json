@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-31T12:40:11Z",
+    "generated_at": "2026-10-31T17:47:23Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -16,13 +16,13 @@
     }
   },
   "network": {
-    "slot": 463691851,
-    "block_height": 441713703,
+    "slot": 463777858,
+    "block_height": 441799696,
     "epoch": 1073,
-    "epoch_progress_pct": 36.07662037037037,
-    "avg_tps_12m": 1213.9277777777777,
-    "median_tps_12m": 1156.5666666666666,
-    "avg_slot_ms_12m": 214.66055472381046,
+    "epoch_progress_pct": 55.98564814814815,
+    "avg_tps_12m": 1419.7208333333335,
+    "median_tps_12m": 1370.7,
+    "avg_slot_ms_12m": 215.65392648368245,
     "active_validators": 665,
     "delinquent_validators": 27,
     "delinquent_pct": 3.901734104046243,
@@ -80,14 +80,14 @@
         "commission_pct": 5
       }
     ],
-    "circulating_supply_sol": 590095134.9706447,
-    "total_supply_sol": 636761202.419661,
+    "circulating_supply_sol": 590095054.438007,
+    "total_supply_sol": 636761121.8870233,
     "inflation_rate_pct": 3.5777267597309823
   },
   "economics": {
-    "sol_price_usd": 96.14,
-    "sol_24h_change_pct": -0.48105755053179206,
-    "sol_market_cap_usd": 56732762335.87819
+    "sol_price_usd": 95.96,
+    "sol_24h_change_pct": 1.5422861309382843,
+    "sol_market_cap_usd": 56630037839.58739
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -122,6 +122,12 @@
       }
     ],
     "recent_simd_commits": [
+      {
+        "sha": "846194b6",
+        "date": "2026-10-31T17:11:33Z",
+        "message": "SIMD-0650: bn254 pairing output (#650)",
+        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/846194b6367badc2a5408d19f9341bf265e82e34"
+      },
       {
         "sha": "2be4cb0c",
         "date": "2026-10-29T14:07:01Z",
@@ -163,12 +169,6 @@
         "date": "2026-10-23T00:25:33Z",
         "message": "[SIMD-0529] Finalize compute unit costs for the SIMD-0529 big_mod_exp syscall (#699)",
         "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/51dbb649da0233481cc40f5640f33fe74d6dbffe"
-      },
-      {
-        "sha": "27ff5a70",
-        "date": "2026-10-21T04:36:32Z",
-        "message": "SIMD-0648: Unbound LoaderV3 Instruction Data (#648)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/27ff5a704391d121869dd3bc8cfa8127483329d0"
       }
     ]
   },
@@ -177,7 +177,7 @@
       "level": "warn",
       "metric": "avg_tps_12m",
       "message": "TPS is below configured floor",
-      "value": 1213.9277777777777
+      "value": 1419.7208333333335
     }
   ]
 }\n
