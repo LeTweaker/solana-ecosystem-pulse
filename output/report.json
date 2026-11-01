@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-01T07:39:02Z",
+    "generated_at": "2026-11-01T15:14:50Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -16,13 +16,13 @@
     }
   },
   "network": {
-    "slot": 464010874,
-    "block_height": 442032403,
+    "slot": 464138658,
+    "block_height": 442160137,
     "epoch": 1074,
-    "epoch_progress_pct": 9.924537037037037,
-    "avg_tps_12m": 995.5277777777778,
-    "median_tps_12m": 972.9916666666667,
-    "avg_slot_ms_12m": 214.75299153539012,
+    "epoch_progress_pct": 39.50416666666667,
+    "avg_tps_12m": 2306.827777777778,
+    "median_tps_12m": 2100.5333333333333,
+    "avg_slot_ms_12m": 214.3034347167089,
     "active_validators": 663,
     "delinquent_validators": 33,
     "delinquent_pct": 4.741379310344827,
@@ -80,14 +80,14 @@
         "commission_pct": 5
       }
     ],
-    "circulating_supply_sol": 590150499.3544773,
-    "total_supply_sol": 636822289.1944776,
+    "circulating_supply_sol": 590150403.0492661,
+    "total_supply_sol": 636822192.8892663,
     "inflation_rate_pct": 3.5761351611079997
   },
   "economics": {
-    "sol_price_usd": 95.39,
-    "sol_24h_change_pct": -0.20217108133421513,
-    "sol_market_cap_usd": 56294733787.92144
+    "sol_price_usd": 95.01,
+    "sol_24h_change_pct": -0.7522765169708037,
+    "sol_market_cap_usd": 56069904683.68443
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -122,6 +122,12 @@
       }
     ],
     "recent_simd_commits": [
+      {
+        "sha": "93cdf03a",
+        "date": "2026-11-01T11:02:57Z",
+        "message": "SIMD-0567: CU-optimized ATA Program (`p-ATA`) (#567)",
+        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/93cdf03a368a8bb2743a7f8d458a4cd36d2a904f"
+      },
       {
         "sha": "846194b6",
         "date": "2026-10-31T17:11:33Z",
@@ -163,21 +169,8 @@
         "date": "2026-10-23T10:25:24Z",
         "message": "SIMD-0683: Pass ABIv1 input metadata via registers r3\u2013r5 (#683)",
         "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/a084840a512454a7ee5e2ef8dd736c790102bea0"
-      },
-      {
-        "sha": "51dbb649",
-        "date": "2026-10-23T00:25:33Z",
-        "message": "[SIMD-0529] Finalize compute unit costs for the SIMD-0529 big_mod_exp syscall (#699)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/51dbb649da0233481cc40f5640f33fe74d6dbffe"
       }
     ]
   },
-  "anomalies": [
-    {
-      "level": "warn",
-      "metric": "avg_tps_12m",
-      "message": "TPS is below configured floor",
-      "value": 995.5277777777778
-    }
-  ]
+  "anomalies": []
 }\n
