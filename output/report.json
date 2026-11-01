@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-01T19:46:47Z",
+    "generated_at": "2026-11-01T23:39:06Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -16,13 +16,13 @@
     }
   },
   "network": {
-    "slot": 464214799,
-    "block_height": 442236253,
+    "slot": 464279810,
+    "block_height": 442301244,
     "epoch": 1074,
-    "epoch_progress_pct": 57.12939814814815,
-    "avg_tps_12m": 2020.8138888888889,
-    "median_tps_12m": 2020.3916666666667,
-    "avg_slot_ms_12m": 213.85389881542042,
+    "epoch_progress_pct": 72.17824074074075,
+    "avg_tps_12m": 1588.1763888888888,
+    "median_tps_12m": 1502.4333333333334,
+    "avg_slot_ms_12m": 213.87982469717005,
     "active_validators": 662,
     "delinquent_validators": 34,
     "delinquent_pct": 4.885057471264368,
@@ -80,14 +80,14 @@
         "commission_pct": 5
       }
     ],
-    "circulating_supply_sol": 590150317.3854804,
-    "total_supply_sol": 636822107.2368952,
+    "circulating_supply_sol": 590150222.6269599,
+    "total_supply_sol": 636822033.4800408,
     "inflation_rate_pct": 3.5761351611079997
   },
   "economics": {
-    "sol_price_usd": 93.82,
-    "sol_24h_change_pct": -2.0344636125372264,
-    "sol_market_cap_usd": 55349811774.095146
+    "sol_price_usd": 94.15,
+    "sol_24h_change_pct": -1.2287289293188126,
+    "sol_market_cap_usd": 55565281429.76711
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -122,6 +122,12 @@
       }
     ],
     "recent_simd_commits": [
+      {
+        "sha": "0434aab3",
+        "date": "2026-11-01T22:22:34Z",
+        "message": "rekey simd-0529 big int mod exp (#715)",
+        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/0434aab3b2c6b596f607194bee44e94088ff2591"
+      },
       {
         "sha": "93cdf03a",
         "date": "2026-11-01T11:02:57Z",
@@ -163,12 +169,6 @@
         "date": "2026-10-24T22:04:31Z",
         "message": "SIMD-0670: ABIv1 invoke signed v2 syscall (#670)",
         "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/c9ec366af14dd32a74259f5d9f5772249188bd25"
-      },
-      {
-        "sha": "a084840a",
-        "date": "2026-10-23T10:25:24Z",
-        "message": "SIMD-0683: Pass ABIv1 input metadata via registers r3\u2013r5 (#683)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/a084840a512454a7ee5e2ef8dd736c790102bea0"
       }
     ]
   },
