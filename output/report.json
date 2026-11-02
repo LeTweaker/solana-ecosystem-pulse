@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-02T16:15:20Z",
+    "generated_at": "2026-11-02T23:37:18Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -16,18 +16,18 @@
     }
   },
   "network": {
-    "slot": 464558764,
-    "block_height": 442579897,
+    "slot": 464682465,
+    "block_height": 442703543,
     "epoch": 1075,
-    "epoch_progress_pct": 36.75092592592593,
-    "avg_tps_12m": 2179.0111111111114,
-    "median_tps_12m": 2164.741666666667,
-    "avg_slot_ms_12m": 215.4013882234101,
-    "active_validators": 665,
+    "epoch_progress_pct": 65.38541666666667,
+    "avg_tps_12m": 1673.9638888888887,
+    "median_tps_12m": 1712.225,
+    "avg_slot_ms_12m": 213.48279683829875,
+    "active_validators": 664,
     "delinquent_validators": 29,
-    "delinquent_pct": 4.178674351585014,
-    "active_stake_sol": 429771468.6542592,
-    "top10_stake_pct": 24.95618585422104,
+    "delinquent_pct": 4.184704184704184,
+    "active_stake_sol": 429669173.03870475,
+    "top10_stake_pct": 24.96212742172004,
     "top_validators": [
       {
         "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
@@ -55,7 +55,7 @@
         "commission_pct": 5
       },
       {
-        "identity": "CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4",
+        "identity": "2fBQ7AyQsgpQkJAAzwVLVu1we2tDV4C8g2mgi2kLFnAq",
         "stake_sol": 9453055.22175938,
         "commission_pct": 10
       },
@@ -80,14 +80,14 @@
         "commission_pct": 5
       }
     ],
-    "circulating_supply_sol": 590205845.8265364,
-    "total_supply_sol": 636883480.5122192,
+    "circulating_supply_sol": 590205688.8550903,
+    "total_supply_sol": 636883323.5727332,
     "inflation_rate_pct": 3.5745442705285173
   },
   "economics": {
-    "sol_price_usd": 93.12,
-    "sol_24h_change_pct": -1.5742918938685222,
-    "sol_market_cap_usd": 54947154517.22012
+    "sol_price_usd": 91.79,
+    "sol_24h_change_pct": -2.4228519508832655,
+    "sol_market_cap_usd": 54155912566.4278
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -122,6 +122,12 @@
       }
     ],
     "recent_simd_commits": [
+      {
+        "sha": "540f6ab4",
+        "date": "2026-11-02T18:36:00Z",
+        "message": "SIMD-0685: Loader V3: Remove ExtendProgram (#685)",
+        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/540f6ab4b9b71b584eae4f00c156194308d6650e"
+      },
       {
         "sha": "0434aab3",
         "date": "2026-11-01T22:22:34Z",
@@ -163,12 +169,6 @@
         "date": "2026-10-26T08:30:54Z",
         "message": "SIMD-0690: Hash validation in program migrations and upgrades (#690)",
         "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/eac20f2994dd064482d96f178a4bbc0f4e358fd0"
-      },
-      {
-        "sha": "c9ec366a",
-        "date": "2026-10-24T22:04:31Z",
-        "message": "SIMD-0670: ABIv1 invoke signed v2 syscall (#670)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/c9ec366af14dd32a74259f5d9f5772249188bd25"
       }
     ]
   },
