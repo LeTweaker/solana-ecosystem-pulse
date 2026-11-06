@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-06T18:01:59Z",
+    "generated_at": "2026-11-06T23:13:26Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -16,18 +16,18 @@
     }
   },
   "network": {
-    "slot": 466202762,
-    "block_height": 444221871,
+    "slot": 466289727,
+    "block_height": 444308624,
     "epoch": 1079,
-    "epoch_progress_pct": 17.306018518518517,
-    "avg_tps_12m": 2318.311111111111,
-    "median_tps_12m": 2170.9,
-    "avg_slot_ms_12m": 214.50508233466857,
-    "active_validators": 657,
-    "delinquent_validators": 39,
-    "delinquent_pct": 5.603448275862069,
-    "active_stake_sol": 433201563.99304014,
-    "top10_stake_pct": 24.746982951846554,
+    "epoch_progress_pct": 37.43657407407407,
+    "avg_tps_12m": 1975.5249999999999,
+    "median_tps_12m": 2078.675,
+    "avg_slot_ms_12m": 213.67796793611728,
+    "active_validators": 659,
+    "delinquent_validators": 37,
+    "delinquent_pct": 5.316091954022989,
+    "active_stake_sol": 433519701.836996,
+    "top10_stake_pct": 24.72882241204328,
     "top_validators": [
       {
         "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
@@ -80,14 +80,14 @@
         "commission_pct": 0
       }
     ],
-    "circulating_supply_sol": 590342641.4885089,
-    "total_supply_sol": 637127878.6158582,
+    "circulating_supply_sol": 590342539.0660082,
+    "total_supply_sol": 637127776.2597805,
     "inflation_rate_pct": 3.568187782348039
   },
   "economics": {
-    "sol_price_usd": 89.89,
-    "sol_24h_change_pct": 1.1243326599976486,
-    "sol_market_cap_usd": 53103557945.6951
+    "sol_price_usd": 89.92,
+    "sol_24h_change_pct": 1.3428231908570054,
+    "sol_market_cap_usd": 53078084340.988884
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -123,6 +123,18 @@
     ],
     "recent_simd_commits": [
       {
+        "sha": "ae7b00f3",
+        "date": "2026-11-06T23:03:47Z",
+        "message": "SIMD-0701: Vote Account v5 (#701)",
+        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/ae7b00f3287a614c5aa5d0a7ceb7bad0cdc4e022"
+      },
+      {
+        "sha": "809a97a0",
+        "date": "2026-11-06T19:22:43Z",
+        "message": "SIMD-0602: Disallow Nonce Account as Program ID (#602)",
+        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/809a97a0b0e0f2190fa5d494bcc5856a06907969"
+      },
+      {
         "sha": "540f6ab4",
         "date": "2026-11-02T18:36:00Z",
         "message": "SIMD-0685: Loader V3: Remove ExtendProgram (#685)",
@@ -157,18 +169,6 @@
         "date": "2026-10-28T18:29:33Z",
         "message": "Mark SIMDs as Activated (#710)",
         "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/6cc17538e26601e65beca89bbfa761e755720956"
-      },
-      {
-        "sha": "2934dbeb",
-        "date": "2026-10-28T16:47:59Z",
-        "message": "Amend SIMD-0607: Derive per-slot decay and increase intermediate precision (#642)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/2934dbeb1c8a7dfecc4f70a93a6b152e525b1698"
-      },
-      {
-        "sha": "eac20f29",
-        "date": "2026-10-26T08:30:54Z",
-        "message": "SIMD-0690: Hash validation in program migrations and upgrades (#690)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/eac20f2994dd064482d96f178a4bbc0f4e358fd0"
       }
     ]
   },
@@ -177,7 +177,7 @@
       "level": "critical",
       "metric": "delinquent_pct",
       "message": "Validator delinquency is elevated",
-      "value": 5.603448275862069
+      "value": 5.316091954022989
     }
   ]
 }\n
