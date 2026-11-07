@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-07T02:52:37Z",
+    "generated_at": "2026-11-07T10:19:28Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -16,18 +16,18 @@
     }
   },
   "network": {
-    "slot": 466351010,
-    "block_height": 444369827,
+    "slot": 466476231,
+    "block_height": 444494920,
     "epoch": 1079,
-    "epoch_progress_pct": 51.62268518518518,
-    "avg_tps_12m": 1368.9791666666667,
-    "median_tps_12m": 1349.025,
-    "avg_slot_ms_12m": 214.24734891290225,
-    "active_validators": 658,
-    "delinquent_validators": 38,
-    "delinquent_pct": 5.459770114942529,
-    "active_stake_sol": 433552659.63328344,
-    "top10_stake_pct": 24.72694257697971,
+    "epoch_progress_pct": 80.60902777777778,
+    "avg_tps_12m": 1103.736111111111,
+    "median_tps_12m": 1063.225,
+    "avg_slot_ms_12m": 215.01454224547777,
+    "active_validators": 659,
+    "delinquent_validators": 37,
+    "delinquent_pct": 5.316091954022989,
+    "active_stake_sol": 433545809.7639877,
+    "top10_stake_pct": 24.727333253860724,
     "top_validators": [
       {
         "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
@@ -80,14 +80,14 @@
         "commission_pct": 0
       }
     ],
-    "circulating_supply_sol": 590982632.8440402,
-    "total_supply_sol": 637127718.1321003,
+    "circulating_supply_sol": 590982544.3746029,
+    "total_supply_sol": 637127629.662663,
     "inflation_rate_pct": 3.568187782348039
   },
   "economics": {
-    "sol_price_usd": 90.38,
-    "sol_24h_change_pct": 0.03998879679720914,
-    "sol_market_cap_usd": 53414407183.72121
+    "sol_price_usd": 90.0,
+    "sol_24h_change_pct": -0.10443752426570825,
+    "sol_market_cap_usd": 53196617736.99987
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -177,13 +177,13 @@
       "level": "warn",
       "metric": "avg_tps_12m",
       "message": "TPS is below configured floor",
-      "value": 1368.9791666666667
+      "value": 1103.736111111111
     },
     {
       "level": "critical",
       "metric": "delinquent_pct",
       "message": "Validator delinquency is elevated",
-      "value": 5.459770114942529
+      "value": 5.316091954022989
     }
   ]
 }\n
