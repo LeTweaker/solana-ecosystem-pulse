@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-08T07:26:15Z",
+    "generated_at": "2026-11-08T15:17:56Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -16,18 +16,18 @@
     }
   },
   "network": {
-    "slot": 466830502,
-    "block_height": 444848890,
+    "slot": 466962493,
+    "block_height": 444980759,
     "epoch": 1080,
-    "epoch_progress_pct": 62.616203703703704,
-    "avg_tps_12m": 993.4166666666666,
-    "median_tps_12m": 1001.9416666666667,
-    "avg_slot_ms_12m": 214.84127488788724,
-    "active_validators": 662,
-    "delinquent_validators": 35,
-    "delinquent_pct": 5.0215208034433285,
-    "active_stake_sol": 434103269.86631036,
-    "top10_stake_pct": 24.670220005179857,
+    "epoch_progress_pct": 93.16967592592593,
+    "avg_tps_12m": 1426.9083333333335,
+    "median_tps_12m": 1408.1416666666667,
+    "avg_slot_ms_12m": 214.3820324156029,
+    "active_validators": 663,
+    "delinquent_validators": 34,
+    "delinquent_pct": 4.878048780487805,
+    "active_stake_sol": 434151638.5075572,
+    "top10_stake_pct": 24.667471506924702,
     "top_validators": [
       {
         "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
@@ -80,14 +80,14 @@
         "commission_pct": 0
       }
     ],
-    "circulating_supply_sol": 591038111.8400244,
-    "total_supply_sol": 637188760.1428155,
+    "circulating_supply_sol": 591038022.392553,
+    "total_supply_sol": 637188670.6953441,
     "inflation_rate_pct": 3.5666004272641207
   },
   "economics": {
-    "sol_price_usd": 89.05,
-    "sol_24h_change_pct": -1.1670631043480797,
-    "sol_market_cap_usd": 52631985801.13867
+    "sol_price_usd": 89.52,
+    "sol_24h_change_pct": -0.1722348663166405,
+    "sol_market_cap_usd": 52904548998.30438
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -177,13 +177,7 @@
       "level": "warn",
       "metric": "avg_tps_12m",
       "message": "TPS is below configured floor",
-      "value": 993.4166666666666
-    },
-    {
-      "level": "critical",
-      "metric": "delinquent_pct",
-      "message": "Validator delinquency is elevated",
-      "value": 5.0215208034433285
+      "value": 1426.9083333333335
     }
   ]
 }\n
