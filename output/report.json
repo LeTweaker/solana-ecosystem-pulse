@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-08T15:17:56Z",
+    "generated_at": "2026-11-08T20:30:37Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -16,78 +16,78 @@
     }
   },
   "network": {
-    "slot": 466962493,
-    "block_height": 444980759,
-    "epoch": 1080,
-    "epoch_progress_pct": 93.16967592592593,
-    "avg_tps_12m": 1426.9083333333335,
-    "median_tps_12m": 1408.1416666666667,
-    "avg_slot_ms_12m": 214.3820324156029,
-    "active_validators": 663,
-    "delinquent_validators": 34,
-    "delinquent_pct": 4.878048780487805,
-    "active_stake_sol": 434151638.5075572,
-    "top10_stake_pct": 24.667471506924702,
+    "slot": 467049805,
+    "block_height": 445067978,
+    "epoch": 1081,
+    "epoch_progress_pct": 13.380787037037036,
+    "avg_tps_12m": 1453.601388888889,
+    "median_tps_12m": 1436.1583333333333,
+    "avg_slot_ms_12m": 214.56872951035302,
+    "active_validators": 661,
+    "delinquent_validators": 36,
+    "delinquent_pct": 5.164992826398852,
+    "active_stake_sol": 433293948.3538422,
+    "top10_stake_pct": 24.66338333176802,
     "top_validators": [
       {
         "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
-        "stake_sol": 17043402.15397293,
+        "stake_sol": 17050552.557098977,
         "commission_pct": 7
       },
       {
         "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
-        "stake_sol": 16729015.577055248,
+        "stake_sol": 16720131.036488129,
         "commission_pct": 0
       },
       {
         "identity": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
-        "stake_sol": 13015290.66981266,
+        "stake_sol": 13021912.458177231,
         "commission_pct": 0
       },
       {
         "identity": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
-        "stake_sol": 10277562.545788256,
+        "stake_sol": 10279070.038531397,
         "commission_pct": 0
       },
       {
         "identity": "JUPiTERkf97eKN222JwY7bkpWuJnwqKtT44fsbJfhkr",
-        "stake_sol": 9558411.276694272,
+        "stake_sol": 9553388.105946444,
         "commission_pct": 5
       },
       {
         "identity": "7jtWrBuj9k2E5RnoHGWSBosBwqwjZMvEnhe9qGLJdhT4",
-        "stake_sol": 9520069.594755253,
+        "stake_sol": 9550278.203907773,
         "commission_pct": 10
       },
       {
         "identity": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
-        "stake_sol": 9242930.179149434,
+        "stake_sol": 9222876.153367508,
         "commission_pct": 7
       },
       {
         "identity": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
-        "stake_sol": 7750589.204772706,
+        "stake_sol": 7775136.54920629,
         "commission_pct": 7
       },
       {
-        "identity": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
-        "stake_sol": 6983623.274861617,
-        "commission_pct": 5
+        "identity": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
+        "stake_sol": 6980318.80233264,
+        "commission_pct": 0
       },
       {
-        "identity": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
-        "stake_sol": 6973337.248836027,
-        "commission_pct": 0
+        "identity": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
+        "stake_sol": 6711283.530804647,
+        "commission_pct": 5
       }
     ],
-    "circulating_supply_sol": 591038022.392553,
-    "total_supply_sol": 637188670.6953441,
-    "inflation_rate_pct": 3.5666004272641207
+    "circulating_supply_sol": 591093749.6127031,
+    "total_supply_sol": 637250090.1643599,
+    "inflation_rate_pct": 3.565013778335909
   },
   "economics": {
-    "sol_price_usd": 89.52,
-    "sol_24h_change_pct": -0.1722348663166405,
-    "sol_market_cap_usd": 52904548998.30438
+    "sol_price_usd": 89.39,
+    "sol_24h_change_pct": -0.10345069023991371,
+    "sol_market_cap_usd": 52838879963.72321
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -177,7 +177,13 @@
       "level": "warn",
       "metric": "avg_tps_12m",
       "message": "TPS is below configured floor",
-      "value": 1426.9083333333335
+      "value": 1453.601388888889
+    },
+    {
+      "level": "critical",
+      "metric": "delinquent_pct",
+      "message": "Validator delinquency is elevated",
+      "value": 5.164992826398852
     }
   ]
 }\n
