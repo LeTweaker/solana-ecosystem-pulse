@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-10T17:54:16Z",
+    "generated_at": "2026-11-10T23:26:42Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -16,78 +16,78 @@
     }
   },
   "network": {
-    "slot": 467811750,
-    "block_height": 445829108,
-    "epoch": 1082,
-    "epoch_progress_pct": 89.75671296296296,
-    "avg_tps_12m": 2078.338888888889,
-    "median_tps_12m": 2055.5833333333335,
-    "avg_slot_ms_12m": 214.97307335483924,
-    "active_validators": 657,
+    "slot": 467904875,
+    "block_height": 445921590,
+    "epoch": 1083,
+    "epoch_progress_pct": 11.313657407407407,
+    "avg_tps_12m": 2129.513888888889,
+    "median_tps_12m": 2180.9416666666666,
+    "avg_slot_ms_12m": 215.47708408367438,
+    "active_validators": 658,
     "delinquent_validators": 41,
-    "delinquent_pct": 5.873925501432665,
-    "active_stake_sol": 434008268.33726996,
-    "top10_stake_pct": 24.621358824920424,
+    "delinquent_pct": 5.86552217453505,
+    "active_stake_sol": 432427661.3539972,
+    "top10_stake_pct": 24.618345754606562,
     "top_validators": [
       {
-        "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
-        "stake_sol": 16898208.425273795,
-        "commission_pct": 7
-      },
-      {
         "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
-        "stake_sol": 16746254.083415668,
+        "stake_sol": 16764484.663037652,
         "commission_pct": 0
       },
       {
+        "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
+        "stake_sol": 16564684.86145808,
+        "commission_pct": 7
+      },
+      {
         "identity": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
-        "stake_sol": 13034244.042892642,
+        "stake_sol": 13031624.879915824,
         "commission_pct": 0
       },
       {
         "identity": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
-        "stake_sol": 10280950.208338087,
+        "stake_sol": 10117254.313611325,
         "commission_pct": 0
       },
       {
         "identity": "7jtWrBuj9k2E5RnoHGWSBosBwqwjZMvEnhe9qGLJdhT4",
-        "stake_sol": 9598548.5808867,
+        "stake_sol": 9644050.73995196,
         "commission_pct": 10
       },
       {
         "identity": "JUPiTERkf97eKN222JwY7bkpWuJnwqKtT44fsbJfhkr",
-        "stake_sol": 9553850.87294427,
+        "stake_sol": 9571015.37878516,
         "commission_pct": 5
       },
       {
         "identity": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
-        "stake_sol": 9233158.907321043,
+        "stake_sol": 9231999.471167194,
         "commission_pct": 7
       },
       {
         "identity": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
-        "stake_sol": 7813315.87741717,
+        "stake_sol": 7814330.209700339,
         "commission_pct": 7
       },
       {
         "identity": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
-        "stake_sol": 6987971.489698246,
+        "stake_sol": 6987247.638999811,
         "commission_pct": 0
       },
       {
         "identity": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
-        "stake_sol": 6712230.588955107,
+        "stake_sol": 6729844.654058866,
         "commission_pct": 5
       }
     ],
-    "circulating_supply_sol": 591148963.1700026,
-    "total_supply_sol": 637310833.515389,
-    "inflation_rate_pct": 3.5634278352492608
+    "circulating_supply_sol": 591204563.5622203,
+    "total_supply_sol": 637372110.401925,
+    "inflation_rate_pct": 3.561842597690172
   },
   "economics": {
-    "sol_price_usd": 82.23,
-    "sol_24h_change_pct": -5.02122783748898,
-    "sol_market_cap_usd": 48577273331.754845
+    "sol_price_usd": 82.96,
+    "sol_24h_change_pct": -4.107280821025574,
+    "sol_market_cap_usd": 49044307911.35562
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -177,7 +177,7 @@
       "level": "critical",
       "metric": "delinquent_pct",
       "message": "Validator delinquency is elevated",
-      "value": 5.873925501432665
+      "value": 5.86552217453505
     }
   ]
 }\n
