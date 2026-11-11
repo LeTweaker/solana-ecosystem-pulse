@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-11T15:18:14Z",
+    "generated_at": "2026-11-11T22:44:05Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -16,78 +16,78 @@
     }
   },
   "network": {
-    "slot": 468170744,
-    "block_height": 446187043,
-    "epoch": 1083,
-    "epoch_progress_pct": 72.85740740740741,
-    "avg_tps_12m": 2202.0819444444446,
-    "median_tps_12m": 2189.0833333333335,
-    "avg_slot_ms_12m": 215.86801987917087,
-    "active_validators": 658,
-    "delinquent_validators": 41,
-    "delinquent_pct": 5.86552217453505,
-    "active_stake_sol": 431222148.0633553,
-    "top10_stake_pct": 24.6871681542307,
+    "slot": 468295166,
+    "block_height": 446311165,
+    "epoch": 1084,
+    "epoch_progress_pct": 1.6587962962962963,
+    "avg_tps_12m": 3016.804166666667,
+    "median_tps_12m": 3106.9750000000004,
+    "avg_slot_ms_12m": 215.23965286078166,
+    "active_validators": 661,
+    "delinquent_validators": 37,
+    "delinquent_pct": 5.300859598853868,
+    "active_stake_sol": 432731490.40323114,
+    "top10_stake_pct": 24.51909425460967,
     "top_validators": [
       {
         "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
-        "stake_sol": 16764484.663037652,
+        "stake_sol": 16789054.44087896,
         "commission_pct": 0
       },
       {
         "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
-        "stake_sol": 16564684.86145808,
+        "stake_sol": 16119193.940625884,
         "commission_pct": 7
       },
       {
         "identity": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
-        "stake_sol": 13031624.879915824,
+        "stake_sol": 13026247.050181774,
         "commission_pct": 0
       },
       {
         "identity": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
-        "stake_sol": 10117254.313611325,
+        "stake_sol": 10116092.20557294,
         "commission_pct": 0
       },
       {
         "identity": "7jtWrBuj9k2E5RnoHGWSBosBwqwjZMvEnhe9qGLJdhT4",
-        "stake_sol": 9644050.73995196,
+        "stake_sol": 9681376.09401874,
         "commission_pct": 10
       },
       {
         "identity": "JUPiTERkf97eKN222JwY7bkpWuJnwqKtT44fsbJfhkr",
-        "stake_sol": 9571015.37878516,
+        "stake_sol": 9580180.02575706,
         "commission_pct": 5
       },
       {
         "identity": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
-        "stake_sol": 9231999.471167194,
+        "stake_sol": 9230504.211019164,
         "commission_pct": 7
       },
       {
         "identity": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
-        "stake_sol": 7814330.209700339,
+        "stake_sol": 7840792.334258141,
         "commission_pct": 7
       },
       {
         "identity": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
-        "stake_sol": 6987247.638999811,
+        "stake_sol": 6987981.195850027,
         "commission_pct": 0
       },
       {
         "identity": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
-        "stake_sol": 6729844.654058866,
+        "stake_sol": 6730420.503182751,
         "commission_pct": 5
       }
     ],
-    "circulating_supply_sol": 591408358.0712429,
-    "total_supply_sol": 637371860.531418,
-    "inflation_rate_pct": 3.561842597690172
+    "circulating_supply_sol": 591457320.2280198,
+    "total_supply_sol": 637432995.3260882,
+    "inflation_rate_pct": 3.5602580653447817
   },
   "economics": {
-    "sol_price_usd": 83.94,
-    "sol_24h_change_pct": -0.31135253126202095,
-    "sol_market_cap_usd": 49644219324.21673
+    "sol_price_usd": 83.88,
+    "sol_24h_change_pct": 1.1072857391298974,
+    "sol_market_cap_usd": 49611814757.76218
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -177,7 +177,7 @@
       "level": "critical",
       "metric": "delinquent_pct",
       "message": "Validator delinquency is elevated",
-      "value": 5.86552217453505
+      "value": 5.300859598853868
     }
   ]
 }\n
