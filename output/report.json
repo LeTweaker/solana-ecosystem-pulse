@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-11T06:33:12Z",
+    "generated_at": "2026-11-11T15:18:14Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -16,18 +16,18 @@
     }
   },
   "network": {
-    "slot": 468024059,
-    "block_height": 446040546,
+    "slot": 468170744,
+    "block_height": 446187043,
     "epoch": 1083,
-    "epoch_progress_pct": 38.90254629629629,
-    "avg_tps_12m": 1318.7375,
-    "median_tps_12m": 1269.2,
-    "avg_slot_ms_12m": 213.18026108634513,
+    "epoch_progress_pct": 72.85740740740741,
+    "avg_tps_12m": 2202.0819444444446,
+    "median_tps_12m": 2189.0833333333335,
+    "avg_slot_ms_12m": 215.86801987917087,
     "active_validators": 658,
     "delinquent_validators": 41,
     "delinquent_pct": 5.86552217453505,
-    "active_stake_sol": 432427661.3539972,
-    "top10_stake_pct": 24.618345754606562,
+    "active_stake_sol": 431222148.0633553,
+    "top10_stake_pct": 24.6871681542307,
     "top_validators": [
       {
         "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
@@ -80,14 +80,14 @@
         "commission_pct": 5
       }
     ],
-    "circulating_supply_sol": 591408484.8055407,
-    "total_supply_sol": 637371987.261197,
+    "circulating_supply_sol": 591408358.0712429,
+    "total_supply_sol": 637371860.531418,
     "inflation_rate_pct": 3.561842597690172
   },
   "economics": {
-    "sol_price_usd": 82.94,
-    "sol_24h_change_pct": -3.416044319074598,
-    "sol_market_cap_usd": 49059217474.00297
+    "sol_price_usd": 83.94,
+    "sol_24h_change_pct": -0.31135253126202095,
+    "sol_market_cap_usd": 49644219324.21673
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -173,12 +173,6 @@
     ]
   },
   "anomalies": [
-    {
-      "level": "warn",
-      "metric": "avg_tps_12m",
-      "message": "TPS is below configured floor",
-      "value": 1318.7375
-    },
     {
       "level": "critical",
       "metric": "delinquent_pct",
