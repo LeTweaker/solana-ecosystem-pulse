@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-13T01:52:15Z",
+    "generated_at": "2026-11-13T09:37:04Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -16,18 +16,18 @@
     }
   },
   "network": {
-    "slot": 468749235,
-    "block_height": 446764718,
+    "slot": 468878707,
+    "block_height": 446893925,
     "epoch": 1085,
-    "epoch_progress_pct": 6.767361111111111,
-    "avg_tps_12m": 1736.675,
-    "median_tps_12m": 1743.6416666666667,
-    "avg_slot_ms_12m": 216.05102585379484,
+    "epoch_progress_pct": 36.73773148148148,
+    "avg_tps_12m": 1317.1805555555554,
+    "median_tps_12m": 1246.0083333333332,
+    "avg_slot_ms_12m": 215.33007886088828,
     "active_validators": 659,
     "delinquent_validators": 40,
     "delinquent_pct": 5.7224606580829755,
-    "active_stake_sol": 431840381.78679633,
-    "top10_stake_pct": 24.576876379276538,
+    "active_stake_sol": 431731767.0448139,
+    "top10_stake_pct": 24.583059410710483,
     "top_validators": [
       {
         "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
@@ -80,14 +80,14 @@
         "commission_pct": 5
       }
     ],
-    "circulating_supply_sol": 591511200.5784179,
-    "total_supply_sol": 637493922.1433268,
+    "circulating_supply_sol": 591511063.6194701,
+    "total_supply_sol": 637493785.1843789,
     "inflation_rate_pct": 3.5586742378993645
   },
   "economics": {
-    "sol_price_usd": 81.31,
-    "sol_24h_change_pct": -2.133460343642346,
-    "sol_market_cap_usd": 48078534466.457756
+    "sol_price_usd": 79.87,
+    "sol_24h_change_pct": -3.717592150491595,
+    "sol_market_cap_usd": 47238163668.67735
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -173,6 +173,12 @@
     ]
   },
   "anomalies": [
+    {
+      "level": "warn",
+      "metric": "avg_tps_12m",
+      "message": "TPS is below configured floor",
+      "value": 1317.1805555555554
+    },
     {
       "level": "critical",
       "metric": "delinquent_pct",
