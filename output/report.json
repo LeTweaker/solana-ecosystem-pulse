@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-14T19:12:36Z",
+    "generated_at": "2026-11-14T23:00:20Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -16,18 +16,18 @@
     }
   },
   "network": {
-    "slot": 469440590,
-    "block_height": 447455661,
+    "slot": 469504065,
+    "block_height": 447519121,
     "epoch": 1086,
-    "epoch_progress_pct": 66.80324074074075,
-    "avg_tps_12m": 1653.9013888888887,
-    "median_tps_12m": 1578.4583333333335,
-    "avg_slot_ms_12m": 214.35347147272398,
+    "epoch_progress_pct": 81.49652777777777,
+    "avg_tps_12m": 1792.4569444444444,
+    "median_tps_12m": 1785.5916666666667,
+    "avg_slot_ms_12m": 214.3792248406361,
     "active_validators": 662,
     "delinquent_validators": 37,
     "delinquent_pct": 5.293276108726753,
-    "active_stake_sol": 429123093.52564186,
-    "top10_stake_pct": 24.7495619119828,
+    "active_stake_sol": 429256289.3841321,
+    "top10_stake_pct": 24.741882259459004,
     "top_validators": [
       {
         "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
@@ -80,14 +80,14 @@
         "commission_pct": 5
       }
     ],
-    "circulating_supply_sol": 591573724.2935711,
-    "total_supply_sol": 637554686.4056526,
+    "circulating_supply_sol": 591573642.0471385,
+    "total_supply_sol": 637554604.15922,
     "inflation_rate_pct": 3.5570911150403375
   },
   "economics": {
-    "sol_price_usd": 72.31,
-    "sol_24h_change_pct": -9.789008926968041,
-    "sol_market_cap_usd": 42774176171.40719
+    "sol_price_usd": 69.05,
+    "sol_24h_change_pct": -11.268478520233263,
+    "sol_market_cap_usd": 40848495795.7636
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -183,7 +183,7 @@
       "level": "info",
       "metric": "sol_24h_change_pct",
       "message": "SOL price moved sharply over 24h",
-      "value": -9.789008926968041
+      "value": -11.268478520233263
     }
   ]
 }\n
