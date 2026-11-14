@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-14T14:12:29Z",
+    "generated_at": "2026-11-14T19:12:36Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -16,18 +16,18 @@
     }
   },
   "network": {
-    "slot": 469356928,
-    "block_height": 447372019,
+    "slot": 469440590,
+    "block_height": 447455661,
     "epoch": 1086,
-    "epoch_progress_pct": 47.43703703703704,
-    "avg_tps_12m": 1974.2416666666668,
-    "median_tps_12m": 1851.6916666666666,
-    "avg_slot_ms_12m": 213.8157327186648,
+    "epoch_progress_pct": 66.80324074074075,
+    "avg_tps_12m": 1653.9013888888887,
+    "median_tps_12m": 1578.4583333333335,
+    "avg_slot_ms_12m": 214.35347147272398,
     "active_validators": 662,
     "delinquent_validators": 37,
     "delinquent_pct": 5.293276108726753,
-    "active_stake_sol": 429256289.3841321,
-    "top10_stake_pct": 24.741882259459004,
+    "active_stake_sol": 429123093.52564186,
+    "top10_stake_pct": 24.7495619119828,
     "top_validators": [
       {
         "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
@@ -80,14 +80,14 @@
         "commission_pct": 5
       }
     ],
-    "circulating_supply_sol": 591573821.4089819,
-    "total_supply_sol": 637554782.8361995,
+    "circulating_supply_sol": 591573724.2935711,
+    "total_supply_sol": 637554686.4056526,
     "inflation_rate_pct": 3.5570911150403375
   },
   "economics": {
-    "sol_price_usd": 75.07,
-    "sol_24h_change_pct": -7.712525314194956,
-    "sol_market_cap_usd": 44408421113.50364
+    "sol_price_usd": 72.31,
+    "sol_24h_change_pct": -9.789008926968041,
+    "sol_market_cap_usd": 42774176171.40719
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -178,6 +178,12 @@
       "metric": "delinquent_pct",
       "message": "Validator delinquency is elevated",
       "value": 5.293276108726753
+    },
+    {
+      "level": "info",
+      "metric": "sol_24h_change_pct",
+      "message": "SOL price moved sharply over 24h",
+      "value": -9.789008926968041
     }
   ]
 }\n
