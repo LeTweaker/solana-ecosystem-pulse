@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-19T22:11:50Z",
+    "generated_at": "2026-11-20T03:23:57Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -16,13 +16,13 @@
     }
   },
   "network": {
-    "slot": 471498319,
-    "block_height": 449512460,
+    "slot": 471585261,
+    "block_height": 449599362,
     "epoch": 1091,
-    "epoch_progress_pct": 43.12939814814815,
-    "avg_tps_12m": 2524.258333333333,
-    "median_tps_12m": 2524.7250000000004,
-    "avg_slot_ms_12m": 216.70146070040437,
+    "epoch_progress_pct": 63.25486111111111,
+    "avg_tps_12m": 1824.611111111111,
+    "median_tps_12m": 1770.2333333333333,
+    "avg_slot_ms_12m": 216.38596675068763,
     "active_validators": 659,
     "delinquent_validators": 26,
     "delinquent_pct": 3.795620437956204,
@@ -80,14 +80,14 @@
         "commission_pct": 5
       }
     ],
-    "circulating_supply_sol": 591851416.4452639,
-    "total_supply_sol": 637859591.855972,
+    "circulating_supply_sol": 591851310.7424339,
+    "total_supply_sol": 637859486.9438084,
     "inflation_rate_pct": 3.5491860585753696
   },
   "economics": {
-    "sol_price_usd": 72.41,
-    "sol_24h_change_pct": -0.5210780189380425,
-    "sol_market_cap_usd": 42857818470.70855
+    "sol_price_usd": 72.84,
+    "sol_24h_change_pct": -0.631952654714734,
+    "sol_market_cap_usd": 43108824456.25218
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -122,6 +122,12 @@
       }
     ],
     "recent_simd_commits": [
+      {
+        "sha": "6cf17cb7",
+        "date": "2026-11-20T02:01:03Z",
+        "message": "Amend 0529: charge a flat cu first before execution (#707)",
+        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/6cf17cb7138d3fac03f5b637c1fde91a00fb48fc"
+      },
       {
         "sha": "ae7b00f3",
         "date": "2026-11-06T23:03:47Z",
@@ -163,12 +169,6 @@
         "date": "2026-10-29T14:07:01Z",
         "message": "docs: align SIMD-0550 with the integer inflation schedule (#704)",
         "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/2be4cb0c0fd1025df8c037b19372f7346119b231"
-      },
-      {
-        "sha": "6cc17538",
-        "date": "2026-10-28T18:29:33Z",
-        "message": "Mark SIMDs as Activated (#710)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/6cc17538e26601e65beca89bbfa761e755720956"
       }
     ]
   },
