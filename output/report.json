@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-20T03:23:57Z",
+    "generated_at": "2026-11-20T12:59:17Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -16,78 +16,78 @@
     }
   },
   "network": {
-    "slot": 471585261,
-    "block_height": 449599362,
-    "epoch": 1091,
-    "epoch_progress_pct": 63.25486111111111,
-    "avg_tps_12m": 1824.611111111111,
-    "median_tps_12m": 1770.2333333333333,
-    "avg_slot_ms_12m": 216.38596675068763,
-    "active_validators": 659,
-    "delinquent_validators": 26,
-    "delinquent_pct": 3.795620437956204,
-    "active_stake_sol": 428573844.0694403,
-    "top10_stake_pct": 24.84790906002542,
+    "slot": 471745917,
+    "block_height": 449759969,
+    "epoch": 1092,
+    "epoch_progress_pct": 0.44375,
+    "avg_tps_12m": 1412.9194444444445,
+    "median_tps_12m": 1384.3583333333333,
+    "avg_slot_ms_12m": 214.32274217168933,
+    "active_validators": 660,
+    "delinquent_validators": 25,
+    "delinquent_pct": 3.6496350364963503,
+    "active_stake_sol": 428912353.5035948,
+    "top10_stake_pct": 24.818208890066906,
     "top_validators": [
       {
         "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
-        "stake_sol": 17028959.520573944,
+        "stake_sol": 17041637.889571887,
         "commission_pct": 0
       },
       {
         "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
-        "stake_sol": 16375744.559783936,
+        "stake_sol": 16354101.204697352,
         "commission_pct": 7
       },
       {
         "identity": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
-        "stake_sol": 12422024.757177088,
+        "stake_sol": 12422891.157618204,
         "commission_pct": 0
       },
       {
         "identity": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
-        "stake_sol": 10299570.279496174,
+        "stake_sol": 10309120.915084912,
         "commission_pct": 0
       },
       {
         "identity": "7jtWrBuj9k2E5RnoHGWSBosBwqwjZMvEnhe9qGLJdhT4",
-        "stake_sol": 9815430.791945236,
+        "stake_sol": 9779397.302290387,
         "commission_pct": 10
       },
       {
         "identity": "JUPiTERkf97eKN222JwY7bkpWuJnwqKtT44fsbJfhkr",
-        "stake_sol": 9573247.975614255,
+        "stake_sol": 9564402.593225928,
         "commission_pct": 5
       },
       {
         "identity": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
-        "stake_sol": 9225577.815973904,
+        "stake_sol": 9231683.135106543,
         "commission_pct": 7
       },
       {
         "identity": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
-        "stake_sol": 7980783.978513234,
+        "stake_sol": 7986182.357308776,
         "commission_pct": 7
       },
       {
         "identity": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
-        "stake_sol": 6997844.189178872,
+        "stake_sol": 6985765.180871696,
         "commission_pct": 0
       },
       {
         "identity": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
-        "stake_sol": 6772455.161173025,
+        "stake_sol": 6773182.112048676,
         "commission_pct": 5
       }
     ],
-    "circulating_supply_sol": 591851310.7424339,
-    "total_supply_sol": 637859486.9438084,
-    "inflation_rate_pct": 3.5491860585753696
+    "circulating_supply_sol": 591906919.1819886,
+    "total_supply_sol": 637920698.2466973,
+    "inflation_rate_pct": 3.5476071566572247
   },
   "economics": {
-    "sol_price_usd": 72.84,
-    "sol_24h_change_pct": -0.631952654714734,
-    "sol_market_cap_usd": 43108824456.25218
+    "sol_price_usd": 71.26,
+    "sol_24h_change_pct": -4.7221194829381785,
+    "sol_market_cap_usd": 42175819277.90174
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -172,5 +172,12 @@
       }
     ]
   },
-  "anomalies": []
+  "anomalies": [
+    {
+      "level": "warn",
+      "metric": "avg_tps_12m",
+      "message": "TPS is below configured floor",
+      "value": 1412.9194444444445
+    }
+  ]
 }\n
