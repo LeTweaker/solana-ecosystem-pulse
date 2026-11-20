@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-20T12:59:17Z",
+    "generated_at": "2026-11-20T21:11:16Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -16,18 +16,18 @@
     }
   },
   "network": {
-    "slot": 471745917,
-    "block_height": 449759969,
+    "slot": 471883210,
+    "block_height": 449897198,
     "epoch": 1092,
-    "epoch_progress_pct": 0.44375,
-    "avg_tps_12m": 1412.9194444444445,
-    "median_tps_12m": 1384.3583333333333,
-    "avg_slot_ms_12m": 214.32274217168933,
-    "active_validators": 660,
-    "delinquent_validators": 25,
-    "delinquent_pct": 3.6496350364963503,
-    "active_stake_sol": 428912353.5035948,
-    "top10_stake_pct": 24.818208890066906,
+    "epoch_progress_pct": 32.22453703703704,
+    "avg_tps_12m": 2549.9791666666665,
+    "median_tps_12m": 2590.291666666667,
+    "avg_slot_ms_12m": 214.3143469638924,
+    "active_validators": 662,
+    "delinquent_validators": 23,
+    "delinquent_pct": 3.3576642335766422,
+    "active_stake_sol": 428912356.00131196,
+    "top10_stake_pct": 24.818208745541188,
     "top_validators": [
       {
         "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
@@ -80,14 +80,14 @@
         "commission_pct": 5
       }
     ],
-    "circulating_supply_sol": 591906919.1819886,
-    "total_supply_sol": 637920698.2466973,
+    "circulating_supply_sol": 591906526.2352089,
+    "total_supply_sol": 637920502.7095451,
     "inflation_rate_pct": 3.5476071566572247
   },
   "economics": {
-    "sol_price_usd": 71.26,
-    "sol_24h_change_pct": -4.7221194829381785,
-    "sol_market_cap_usd": 42175819277.90174
+    "sol_price_usd": 67.33,
+    "sol_24h_change_pct": -7.5344823842725654,
+    "sol_market_cap_usd": 39850735593.67246
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -172,12 +172,5 @@
       }
     ]
   },
-  "anomalies": [
-    {
-      "level": "warn",
-      "metric": "avg_tps_12m",
-      "message": "TPS is below configured floor",
-      "value": 1412.9194444444445
-    }
-  ]
+  "anomalies": []
 }\n
