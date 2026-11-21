@@ -1,28 +1,29 @@
 {
   "meta": {
-    "generated_at": "2026-11-20T21:11:16Z",
+    "generated_at": "2026-11-21T02:22:36Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
       "rpc": "ok",
       "defillama": "error",
       "market": "ok",
-      "development": "ok",
+      "development": "error",
       "news": "error"
     },
     "errors": {
       "defillama": "HTTPError: HTTP Error 400: Bad Request",
+      "development": "HTTPError: HTTP Error 403: rate limit exceeded",
       "news": "HTTPError: HTTP Error 429: Too Many Requests"
     }
   },
   "network": {
-    "slot": 471883210,
-    "block_height": 449897198,
+    "slot": 471969976,
+    "block_height": 449983956,
     "epoch": 1092,
-    "epoch_progress_pct": 32.22453703703704,
-    "avg_tps_12m": 2549.9791666666665,
-    "median_tps_12m": 2590.291666666667,
-    "avg_slot_ms_12m": 214.3143469638924,
+    "epoch_progress_pct": 52.30925925925926,
+    "avg_tps_12m": 1617.9097222222224,
+    "median_tps_12m": 1622.4583333333333,
+    "avg_slot_ms_12m": 215.71896977696437,
     "active_validators": 662,
     "delinquent_validators": 23,
     "delinquent_pct": 3.3576642335766422,
@@ -80,97 +81,19 @@
         "commission_pct": 5
       }
     ],
-    "circulating_supply_sol": 591906526.2352089,
-    "total_supply_sol": 637920502.7095451,
+    "circulating_supply_sol": 591906447.4916892,
+    "total_supply_sol": 637920424.2100374,
     "inflation_rate_pct": 3.5476071566572247
   },
   "economics": {
-    "sol_price_usd": 67.33,
-    "sol_24h_change_pct": -7.5344823842725654,
-    "sol_market_cap_usd": 39850735593.67246
+    "sol_price_usd": 68.68,
+    "sol_24h_change_pct": -4.5938165336396075,
+    "sol_market_cap_usd": 40643290660.27647
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
     "daily_active_addresses": null
   },
-  "development": {
-    "agave_releases": [
-      {
-        "tag": "v5.0.0-alpha.1",
-        "published_at": "2026-11-19T20:57:32Z",
-        "url": "https://github.com/anza-xyz/agave/releases/tag/v5.0.0-alpha.1"
-      },
-      {
-        "tag": "v4.5.0-beta.0",
-        "published_at": "2026-11-06T08:17:22Z",
-        "url": "https://github.com/anza-xyz/agave/releases/tag/v4.5.0-beta.0"
-      },
-      {
-        "tag": "v4.4.1",
-        "published_at": "2026-11-05T18:33:50Z",
-        "url": "https://github.com/anza-xyz/agave/releases/tag/v4.4.1"
-      },
-      {
-        "tag": "v4.4.0",
-        "published_at": "2026-10-28T20:35:10Z",
-        "url": "https://github.com/anza-xyz/agave/releases/tag/v4.4.0"
-      },
-      {
-        "tag": "v4.5.0-alpha.4",
-        "published_at": "2026-10-26T20:06:18Z",
-        "url": "https://github.com/anza-xyz/agave/releases/tag/v4.5.0-alpha.4"
-      }
-    ],
-    "recent_simd_commits": [
-      {
-        "sha": "6cf17cb7",
-        "date": "2026-11-20T02:01:03Z",
-        "message": "Amend 0529: charge a flat cu first before execution (#707)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/6cf17cb7138d3fac03f5b637c1fde91a00fb48fc"
-      },
-      {
-        "sha": "ae7b00f3",
-        "date": "2026-11-06T23:03:47Z",
-        "message": "SIMD-0701: Vote Account v5 (#701)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/ae7b00f3287a614c5aa5d0a7ceb7bad0cdc4e022"
-      },
-      {
-        "sha": "809a97a0",
-        "date": "2026-11-06T19:22:43Z",
-        "message": "SIMD-0602: Disallow Nonce Account as Program ID (#602)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/809a97a0b0e0f2190fa5d494bcc5856a06907969"
-      },
-      {
-        "sha": "540f6ab4",
-        "date": "2026-11-02T18:36:00Z",
-        "message": "SIMD-0685: Loader V3: Remove ExtendProgram (#685)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/540f6ab4b9b71b584eae4f00c156194308d6650e"
-      },
-      {
-        "sha": "0434aab3",
-        "date": "2026-11-01T22:22:34Z",
-        "message": "rekey simd-0529 big int mod exp (#715)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/0434aab3b2c6b596f607194bee44e94088ff2591"
-      },
-      {
-        "sha": "93cdf03a",
-        "date": "2026-11-01T11:02:57Z",
-        "message": "SIMD-0567: CU-optimized ATA Program (`p-ATA`) (#567)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/93cdf03a368a8bb2743a7f8d458a4cd36d2a904f"
-      },
-      {
-        "sha": "846194b6",
-        "date": "2026-10-31T17:11:33Z",
-        "message": "SIMD-0650: bn254 pairing output (#650)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/846194b6367badc2a5408d19f9341bf265e82e34"
-      },
-      {
-        "sha": "2be4cb0c",
-        "date": "2026-10-29T14:07:01Z",
-        "message": "docs: align SIMD-0550 with the integer inflation schedule (#704)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/2be4cb0c0fd1025df8c037b19372f7346119b231"
-      }
-    ]
-  },
+  "development": {},
   "anomalies": []
 }\n
