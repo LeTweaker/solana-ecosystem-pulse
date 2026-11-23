@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-23T02:51:09Z",
+    "generated_at": "2026-11-23T12:56:37Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -16,13 +16,13 @@
     }
   },
   "network": {
-    "slot": 472781522,
-    "block_height": 450795102,
+    "slot": 472950482,
+    "block_height": 450964010,
     "epoch": 1094,
-    "epoch_progress_pct": 40.16712962962963,
-    "avg_tps_12m": 1665.8180555555555,
-    "median_tps_12m": 1777.3166666666666,
-    "avg_slot_ms_12m": 215.3422231916802,
+    "epoch_progress_pct": 79.27824074074074,
+    "avg_tps_12m": 1323.5944444444444,
+    "median_tps_12m": 1349.9333333333334,
+    "avg_slot_ms_12m": 213.29002283831383,
     "active_validators": 662,
     "delinquent_validators": 23,
     "delinquent_pct": 3.3576642335766422,
@@ -80,14 +80,14 @@
         "commission_pct": 5
       }
     ],
-    "circulating_supply_sol": 592016814.9360994,
-    "total_supply_sol": 638042415.784309,
+    "circulating_supply_sol": 592016687.4836257,
+    "total_supply_sol": 638042288.3458351,
     "inflation_rate_pct": 3.5444514596940784
   },
   "economics": {
-    "sol_price_usd": 69.96,
-    "sol_24h_change_pct": 0.7315735393060461,
-    "sol_market_cap_usd": 41417807185.79847
+    "sol_price_usd": 72.05,
+    "sol_24h_change_pct": 2.6228931584773294,
+    "sol_market_cap_usd": 42655314754.62771
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -122,6 +122,12 @@
       }
     ],
     "recent_simd_commits": [
+      {
+        "sha": "44a44062",
+        "date": "2026-11-23T09:59:46Z",
+        "message": "SIMD-0706: Reject unknown syscalls and `sol_alloc_free_` (#706)",
+        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/44a4406237de1597ce56c1d106161dda950cbc68"
+      },
       {
         "sha": "6cf17cb7",
         "date": "2026-11-20T02:01:03Z",
@@ -163,14 +169,15 @@
         "date": "2026-10-31T17:11:33Z",
         "message": "SIMD-0650: bn254 pairing output (#650)",
         "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/846194b6367badc2a5408d19f9341bf265e82e34"
-      },
-      {
-        "sha": "2be4cb0c",
-        "date": "2026-10-29T14:07:01Z",
-        "message": "docs: align SIMD-0550 with the integer inflation schedule (#704)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/2be4cb0c0fd1025df8c037b19372f7346119b231"
       }
     ]
   },
-  "anomalies": []
+  "anomalies": [
+    {
+      "level": "warn",
+      "metric": "avg_tps_12m",
+      "message": "TPS is below configured floor",
+      "value": 1323.5944444444444
+    }
+  ]
 }\n
