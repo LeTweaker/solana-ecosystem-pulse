@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-23T12:56:37Z",
+    "generated_at": "2026-11-24T00:57:10Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -16,78 +16,78 @@
     }
   },
   "network": {
-    "slot": 472950482,
-    "block_height": 450964010,
-    "epoch": 1094,
-    "epoch_progress_pct": 79.27824074074074,
-    "avg_tps_12m": 1323.5944444444444,
-    "median_tps_12m": 1349.9333333333334,
-    "avg_slot_ms_12m": 213.29002283831383,
-    "active_validators": 662,
-    "delinquent_validators": 23,
-    "delinquent_pct": 3.3576642335766422,
-    "active_stake_sol": 425641046.0962534,
-    "top10_stake_pct": 24.99675933335286,
+    "slot": 473151503,
+    "block_height": 451164727,
+    "epoch": 1095,
+    "epoch_progress_pct": 25.81087962962963,
+    "avg_tps_12m": 1805.3055555555557,
+    "median_tps_12m": 1855.6750000000002,
+    "avg_slot_ms_12m": 215.73591607978938,
+    "active_validators": 660,
+    "delinquent_validators": 26,
+    "delinquent_pct": 3.7900874635568513,
+    "active_stake_sol": 425702702.0982839,
+    "top10_stake_pct": 24.973001974795945,
     "top_validators": [
       {
         "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
-        "stake_sol": 16918439.795766484,
+        "stake_sol": 17028046.202692557,
         "commission_pct": 0
       },
       {
         "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
-        "stake_sol": 16346958.714007422,
+        "stake_sol": 16091420.43366756,
         "commission_pct": 7
       },
       {
         "identity": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
-        "stake_sol": 12401889.011493972,
+        "stake_sol": 12412157.559942655,
         "commission_pct": 0
       },
       {
         "identity": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
-        "stake_sol": 10243004.562232288,
+        "stake_sol": 10240508.083959753,
         "commission_pct": 0
       },
       {
         "identity": "7jtWrBuj9k2E5RnoHGWSBosBwqwjZMvEnhe9qGLJdhT4",
-        "stake_sol": 9842252.897510506,
+        "stake_sol": 9856365.994145928,
         "commission_pct": 10
       },
       {
         "identity": "JUPiTERkf97eKN222JwY7bkpWuJnwqKtT44fsbJfhkr",
-        "stake_sol": 9612895.64428392,
+        "stake_sol": 9634021.974019406,
         "commission_pct": 5
       },
       {
         "identity": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
-        "stake_sol": 9269554.506735334,
+        "stake_sol": 9276353.710384162,
         "commission_pct": 7
       },
       {
         "identity": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
-        "stake_sol": 7998894.554601904,
+        "stake_sol": 8005660.295121992,
         "commission_pct": 7
       },
       {
         "identity": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
-        "stake_sol": 6987495.140481895,
+        "stake_sol": 6987775.674717464,
         "commission_pct": 0
       },
       {
         "identity": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
-        "stake_sol": 6775083.089532234,
+        "stake_sol": 6778434.27311266,
         "commission_pct": 5
       }
     ],
-    "circulating_supply_sol": 592016687.4836257,
-    "total_supply_sol": 638042288.3458351,
-    "inflation_rate_pct": 3.5444514596940784
+    "circulating_supply_sol": 592071845.8276325,
+    "total_supply_sol": 638103226.6049186,
+    "inflation_rate_pct": 3.5428746640242768
   },
   "economics": {
-    "sol_price_usd": 72.05,
-    "sol_24h_change_pct": 2.6228931584773294,
-    "sol_market_cap_usd": 42655314754.62771
+    "sol_price_usd": 71.98,
+    "sol_24h_change_pct": 1.8680705981774706,
+    "sol_market_cap_usd": 42620105919.58389
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -172,12 +172,5 @@
       }
     ]
   },
-  "anomalies": [
-    {
-      "level": "warn",
-      "metric": "avg_tps_12m",
-      "message": "TPS is below configured floor",
-      "value": 1323.5944444444444
-    }
-  ]
+  "anomalies": []
 }\n
