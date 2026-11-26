@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-25T15:41:11Z",
+    "generated_at": "2026-11-26T00:26:55Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -16,78 +16,78 @@
     }
   },
   "network": {
-    "slot": 473800143,
-    "block_height": 451813177,
-    "epoch": 1096,
-    "epoch_progress_pct": 75.95902777777778,
-    "avg_tps_12m": 2753.194444444445,
-    "median_tps_12m": 2672.55,
-    "avg_slot_ms_12m": 215.08496611064422,
-    "active_validators": 659,
-    "delinquent_validators": 28,
-    "delinquent_pct": 4.075691411935954,
-    "active_stake_sol": 424615595.7461645,
-    "top10_stake_pct": 25.0052474475523,
+    "slot": 473946744,
+    "block_height": 451959675,
+    "epoch": 1097,
+    "epoch_progress_pct": 9.894444444444444,
+    "avg_tps_12m": 2079.6055555555554,
+    "median_tps_12m": 1890.0916666666667,
+    "avg_slot_ms_12m": 215.4812626321102,
+    "active_validators": 656,
+    "delinquent_validators": 32,
+    "delinquent_pct": 4.651162790697675,
+    "active_stake_sol": 423531206.5897551,
+    "top10_stake_pct": 24.989365311320764,
     "top_validators": [
       {
         "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
-        "stake_sol": 17003541.981392626,
+        "stake_sol": 16804999.614021122,
         "commission_pct": 0
       },
       {
         "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
-        "stake_sol": 15962658.489145229,
+        "stake_sol": 15814430.693992715,
         "commission_pct": 7
       },
       {
         "identity": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
-        "stake_sol": 12418811.682935648,
+        "stake_sol": 12430859.155065522,
         "commission_pct": 0
       },
       {
         "identity": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
-        "stake_sol": 10242949.228476765,
+        "stake_sol": 10236589.180268455,
         "commission_pct": 0
       },
       {
         "identity": "7jtWrBuj9k2E5RnoHGWSBosBwqwjZMvEnhe9qGLJdhT4",
-        "stake_sol": 9885208.789441112,
+        "stake_sol": 9910258.207727622,
         "commission_pct": 10
       },
       {
         "identity": "JUPiTERkf97eKN222JwY7bkpWuJnwqKtT44fsbJfhkr",
-        "stake_sol": 9615268.50009444,
+        "stake_sol": 9615393.624929355,
         "commission_pct": 5
       },
       {
         "identity": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
-        "stake_sol": 9283846.819468694,
+        "stake_sol": 9281562.760430504,
         "commission_pct": 7
       },
       {
         "identity": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
-        "stake_sol": 8016084.545920888,
+        "stake_sol": 8032075.363979989,
         "commission_pct": 7
       },
       {
         "identity": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
-        "stake_sol": 6968432.362357505,
+        "stake_sol": 6971305.266347958,
         "commission_pct": 0
       },
       {
         "identity": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
-        "stake_sol": 6779378.017993883,
+        "stake_sol": 6740286.555395307,
         "commission_pct": 5
       }
     ],
-    "circulating_supply_sol": 592128176.3249134,
-    "total_supply_sol": 638163815.631451,
-    "inflation_rate_pct": 3.5412985698126875
+    "circulating_supply_sol": 592183373.3536432,
+    "total_supply_sol": 638224844.1715152,
+    "inflation_rate_pct": 3.5397231767472572
   },
   "economics": {
-    "sol_price_usd": 67.33,
-    "sol_24h_change_pct": -2.2252236063778663,
-    "sol_market_cap_usd": 39869603424.040596
+    "sol_price_usd": 71.15,
+    "sol_24h_change_pct": 2.1124044841733944,
+    "sol_market_cap_usd": 42132189619.68267
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -95,6 +95,11 @@
   },
   "development": {
     "agave_releases": [
+      {
+        "tag": "v4.5.0-rc.0",
+        "published_at": "2026-11-25T19:04:00Z",
+        "url": "https://github.com/anza-xyz/agave/releases/tag/v4.5.0-rc.0"
+      },
       {
         "tag": "v5.0.0-alpha.1",
         "published_at": "2026-11-19T20:57:32Z",
@@ -114,14 +119,21 @@
         "tag": "v4.4.0",
         "published_at": "2026-10-28T20:35:10Z",
         "url": "https://github.com/anza-xyz/agave/releases/tag/v4.4.0"
-      },
-      {
-        "tag": "v4.5.0-alpha.4",
-        "published_at": "2026-10-26T20:06:18Z",
-        "url": "https://github.com/anza-xyz/agave/releases/tag/v4.5.0-alpha.4"
       }
     ],
     "recent_simd_commits": [
+      {
+        "sha": "1536c3ec",
+        "date": "2026-11-26T00:08:48Z",
+        "message": "Withdraw SIMD-0506 (#738)",
+        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/1536c3eceda1779de191453246f939e53d8d7c94"
+      },
+      {
+        "sha": "e4d2b0e1",
+        "date": "2026-11-25T17:40:30Z",
+        "message": "100M CUs Pt2 (#698)",
+        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/e4d2b0e1c035385a65a96b3875e5b92af5df868e"
+      },
       {
         "sha": "44a44062",
         "date": "2026-11-23T09:59:46Z",
@@ -157,18 +169,6 @@
         "date": "2026-11-01T22:22:34Z",
         "message": "rekey simd-0529 big int mod exp (#715)",
         "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/0434aab3b2c6b596f607194bee44e94088ff2591"
-      },
-      {
-        "sha": "93cdf03a",
-        "date": "2026-11-01T11:02:57Z",
-        "message": "SIMD-0567: CU-optimized ATA Program (`p-ATA`) (#567)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/93cdf03a368a8bb2743a7f8d458a4cd36d2a904f"
-      },
-      {
-        "sha": "846194b6",
-        "date": "2026-10-31T17:11:33Z",
-        "message": "SIMD-0650: bn254 pairing output (#650)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/846194b6367badc2a5408d19f9341bf265e82e34"
       }
     ]
   },
