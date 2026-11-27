@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-27T12:32:38Z",
+    "generated_at": "2026-11-27T22:01:12Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -16,18 +16,18 @@
     }
   },
   "network": {
-    "slot": 474551385,
-    "block_height": 452564057,
+    "slot": 474710157,
+    "block_height": 452722787,
     "epoch": 1098,
-    "epoch_progress_pct": 49.857638888888886,
-    "avg_tps_12m": 1227.9347222222223,
-    "median_tps_12m": 1209.6583333333333,
-    "avg_slot_ms_12m": 215.26764344359458,
+    "epoch_progress_pct": 86.61041666666667,
+    "avg_tps_12m": 1572.9819444444445,
+    "median_tps_12m": 1551.9583333333335,
+    "avg_slot_ms_12m": 215.8601160830248,
     "active_validators": 653,
     "delinquent_validators": 35,
     "delinquent_pct": 5.087209302325581,
-    "active_stake_sol": 423831281.68553144,
-    "top10_stake_pct": 24.986961647731807,
+    "active_stake_sol": 423371495.8858473,
+    "top10_stake_pct": 25.014097745117958,
     "top_validators": [
       {
         "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
@@ -80,14 +80,14 @@
         "commission_pct": 5
       }
     ],
-    "circulating_supply_sol": 592238277.9011148,
-    "total_supply_sol": 638285550.9543297,
+    "circulating_supply_sol": 592238095.944081,
+    "total_supply_sol": 638285369.9042008,
     "inflation_rate_pct": 3.538148484516073
   },
   "economics": {
-    "sol_price_usd": 72.95,
-    "sol_24h_change_pct": 3.224478055624226,
-    "sol_market_cap_usd": 43202946506.89752
+    "sol_price_usd": 71.93,
+    "sol_24h_change_pct": 0.6016644496991755,
+    "sol_market_cap_usd": 42593329795.70876
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -95,6 +95,16 @@
   },
   "development": {
     "agave_releases": [
+      {
+        "tag": "v4.5.0-rc.1",
+        "published_at": "2026-11-27T18:56:05Z",
+        "url": "https://github.com/anza-xyz/agave/releases/tag/v4.5.0-rc.1"
+      },
+      {
+        "tag": "v4.4.2",
+        "published_at": "2026-11-27T19:04:56Z",
+        "url": "https://github.com/anza-xyz/agave/releases/tag/v4.4.2"
+      },
       {
         "tag": "v4.5.0-rc.0",
         "published_at": "2026-11-25T19:04:00Z",
@@ -109,16 +119,6 @@
         "tag": "v4.5.0-beta.0",
         "published_at": "2026-11-06T08:17:22Z",
         "url": "https://github.com/anza-xyz/agave/releases/tag/v4.5.0-beta.0"
-      },
-      {
-        "tag": "v4.4.1",
-        "published_at": "2026-11-05T18:33:50Z",
-        "url": "https://github.com/anza-xyz/agave/releases/tag/v4.4.1"
-      },
-      {
-        "tag": "v4.4.0",
-        "published_at": "2026-10-28T20:35:10Z",
-        "url": "https://github.com/anza-xyz/agave/releases/tag/v4.4.0"
       }
     ],
     "recent_simd_commits": [
@@ -173,12 +173,6 @@
     ]
   },
   "anomalies": [
-    {
-      "level": "warn",
-      "metric": "avg_tps_12m",
-      "message": "TPS is below configured floor",
-      "value": 1227.9347222222223
-    },
     {
       "level": "critical",
       "metric": "delinquent_pct",
