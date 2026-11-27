@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-27T02:53:43Z",
+    "generated_at": "2026-11-27T12:32:38Z",
     "fixture": false,
     "schema_version": 1,
     "source_status": {
@@ -16,18 +16,18 @@
     }
   },
   "network": {
-    "slot": 474389660,
-    "block_height": 452402388,
+    "slot": 474551385,
+    "block_height": 452564057,
     "epoch": 1098,
-    "epoch_progress_pct": 12.421296296296296,
-    "avg_tps_12m": 1351.6347222222223,
-    "median_tps_12m": 1330.2416666666668,
-    "avg_slot_ms_12m": 214.49412946736138,
-    "active_validators": 654,
-    "delinquent_validators": 34,
-    "delinquent_pct": 4.941860465116279,
-    "active_stake_sol": 423952415.41693294,
-    "top10_stake_pct": 24.979822252387642,
+    "epoch_progress_pct": 49.857638888888886,
+    "avg_tps_12m": 1227.9347222222223,
+    "median_tps_12m": 1209.6583333333333,
+    "avg_slot_ms_12m": 215.26764344359458,
+    "active_validators": 653,
+    "delinquent_validators": 35,
+    "delinquent_pct": 5.087209302325581,
+    "active_stake_sol": 423831281.68553144,
+    "top10_stake_pct": 24.986961647731807,
     "top_validators": [
       {
         "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
@@ -80,14 +80,14 @@
         "commission_pct": 5
       }
     ],
-    "circulating_supply_sol": 592238391.4690057,
-    "total_supply_sol": 638285664.5206426,
+    "circulating_supply_sol": 592238277.9011148,
+    "total_supply_sol": 638285550.9543297,
     "inflation_rate_pct": 3.538148484516073
   },
   "economics": {
-    "sol_price_usd": 72.37,
-    "sol_24h_change_pct": 1.6497284916159605,
-    "sol_market_cap_usd": 42859252293.7684
+    "sol_price_usd": 72.95,
+    "sol_24h_change_pct": 3.224478055624226,
+    "sol_market_cap_usd": 43202946506.89752
   },
   "growth": {
     "tokenized_assets_note": "Tokenized equities volume is intentionally left source-pluggable; no reliable keyless canonical endpoint is assumed.",
@@ -122,6 +122,12 @@
       }
     ],
     "recent_simd_commits": [
+      {
+        "sha": "7a56bc92",
+        "date": "2026-11-27T11:41:48Z",
+        "message": "SIMD-0579: Keccak-p1600 syscall (#579)",
+        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/7a56bc9241056930caa2312bf0c8790a6799bccf"
+      },
       {
         "sha": "1536c3ec",
         "date": "2026-11-26T00:08:48Z",
@@ -163,12 +169,6 @@
         "date": "2026-11-02T18:36:00Z",
         "message": "SIMD-0685: Loader V3: Remove ExtendProgram (#685)",
         "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/540f6ab4b9b71b584eae4f00c156194308d6650e"
-      },
-      {
-        "sha": "0434aab3",
-        "date": "2026-11-01T22:22:34Z",
-        "message": "rekey simd-0529 big int mod exp (#715)",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/0434aab3b2c6b596f607194bee44e94088ff2591"
       }
     ]
   },
@@ -177,7 +177,13 @@
       "level": "warn",
       "metric": "avg_tps_12m",
       "message": "TPS is below configured floor",
-      "value": 1351.6347222222223
+      "value": 1227.9347222222223
+    },
+    {
+      "level": "critical",
+      "metric": "delinquent_pct",
+      "message": "Validator delinquency is elevated",
+      "value": 5.087209302325581
     }
   ]
 }\n
